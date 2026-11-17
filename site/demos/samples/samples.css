@@ -247,3 +247,11 @@
   background: var(--yours);
   color: #0d0f12;
 }
+
+/* s463: the window now sits inside the stage, so the role report runs in two columns to leave room for the render line and song.wav. */
+.sd-term[data-layout='wide'] .sd-grid {
+  grid-template-columns: 1fr 1fr;
+}
+.sd-term[data-layout='compact'] {
+  padding-bottom: 8px;
+}

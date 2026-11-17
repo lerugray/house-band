@@ -202,12 +202,12 @@ export default function SamplesDemo() {
     >
       {(s, _rect, layout) => {
         // Corner bleed (dark-hero): equal top+left gutter; folder chip straddles the
-        // window's left edge (upload satellite). Window runs well past right and bottom.
+        // window's left edge (upload satellite). Window sits fully inside the stage (s463: Ray read the old bleed as cut off).
         const desk = layout === 'wide' ? { x: 4, y: 132 } : { x: 4, y: 100 }
         const win =
           layout === 'wide'
-            ? { x: 28, y: 28, w: 760, h: 420 }
-            : { x: 16, y: 16, w: 400, h: 420 }
+            ? { x: 28, y: 28, w: 664, h: 344 }
+            : { x: 16, y: 12, w: 326, h: 376 }
         const lifted = s.ghost.on && !s.ghost.dropped && !s.ghost.leaving
         const showDesk = !s.ghost.dropped && !s.ghost.leaving
         return (

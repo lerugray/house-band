@@ -268,8 +268,8 @@ export default function CowriteDemo() {
         const desk = layout === 'wide' ? { x: 4, y: 132 } : { x: 4, y: 100 }
         const win =
           layout === 'wide'
-            ? { x: 28, y: 28, w: 760, h: 420 }
-            : { x: 16, y: 16, w: 400, h: 420 }
+            ? { x: 28, y: 16, w: 664, h: 368 }
+            : { x: 16, y: 12, w: 326, h: 380 }
         const lifted = s.ghost.on && !s.ghost.dropped && !s.ghost.leaving
         const showDesk = !s.ghost.dropped && !s.ghost.leaving
         return (
