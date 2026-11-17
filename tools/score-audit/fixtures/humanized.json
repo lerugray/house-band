@@ -1,0 +1,335 @@
+{
+ "schemaVersion": "1.0.0",
+ "kitVersion": {
+  "semver": "1.1.0",
+  "sha": "b2709519f2faf8481de28e0a5e9912cd2e80ae9e290fdfca88915c0377aaf773"
+ },
+ "seed": 42,
+ "tempo": 120,
+ "sampleRate": 44100,
+ "gain": 0.5,
+ "label": "Synthetic humanized fixture: declared timing/velocity humanization, explicit velocity spread, varied lead releases, subtractive A\u00d74 arrangement.",
+ "register": {
+  "name": "audit-humanized",
+  "briefRef": "docs/REGISTER-KIT-DEMO.md"
+ },
+ "performance": {
+  "humanize": {
+   "timingMs": [
+    -8,
+    8
+   ],
+   "velocity": [
+    -0.05,
+    0.05
+   ]
+  }
+ },
+ "tracks": {
+  "A": {
+   "bpm": 120,
+   "len": 16,
+   "vol": 1,
+   "steps": [
+    {
+     "i": [
+      0,
+      8
+     ],
+     "voice": "kick",
+     "opts": {
+      "vol": 0.28
+     }
+    },
+    {
+     "i": [
+      4,
+      12
+     ],
+     "voice": "snare",
+     "opts": {
+      "vol": 0.1
+     }
+    },
+    {
+     "every": 2,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 0,
+     "voice": "bass",
+     "note": "C2",
+     "dur": 0.55,
+     "opts": {
+      "vol": 0.11
+     }
+    },
+    {
+     "i": 8,
+     "voice": "bass",
+     "note": "G1",
+     "dur": 0.48,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 0,
+     "voice": "lead",
+     "note": "C4",
+     "dur": 0.42,
+     "opts": {
+      "vol": 0.07,
+      "r": 0.15
+     }
+    },
+    {
+     "i": 4,
+     "voice": "lead",
+     "note": "E4",
+     "dur": 0.35,
+     "opts": {
+      "vol": 0.08,
+      "r": 0.22
+     }
+    },
+    {
+     "i": 8,
+     "voice": "lead",
+     "note": "G4",
+     "dur": 0.5,
+     "opts": {
+      "vol": 0.06,
+      "r": 0.18
+     }
+    },
+    {
+     "i": 12,
+     "voice": "lead",
+     "note": "C5",
+     "dur": 0.38,
+     "opts": {
+      "vol": 0.075,
+      "r": 0.25
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "C3",
+     "dur": 2.0,
+     "opts": {
+      "vol": 0.04
+     }
+    },
+    {
+     "i": 0,
+     "voice": "chipTriangle",
+     "note": "C5",
+     "dur": 0.2,
+     "opts": {
+      "s": 0.3,
+      "r": 0.26,
+      "vol": 0.03
+     }
+    }
+   ]
+  },
+  "A-drop-bass": {
+   "bpm": 120,
+   "len": 16,
+   "vol": 1,
+   "steps": [
+    {
+     "i": [
+      0,
+      8
+     ],
+     "voice": "kick",
+     "opts": {
+      "vol": 0.26
+     }
+    },
+    {
+     "i": [
+      4,
+      12
+     ],
+     "voice": "snare",
+     "opts": {
+      "vol": 0.12
+     }
+    },
+    {
+     "every": 2,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "lead",
+     "note": "F4",
+     "dur": 0.44,
+     "opts": {
+      "vol": 0.065,
+      "r": 0.16
+     }
+    },
+    {
+     "i": 4,
+     "voice": "lead",
+     "note": "A4",
+     "dur": 0.36,
+     "opts": {
+      "vol": 0.085,
+      "r": 0.21
+     }
+    },
+    {
+     "i": 8,
+     "voice": "lead",
+     "note": "C5",
+     "dur": 0.52,
+     "opts": {
+      "vol": 0.055,
+      "r": 0.19
+     }
+    },
+    {
+     "i": 12,
+     "voice": "lead",
+     "note": "F5",
+     "dur": 0.4,
+     "opts": {
+      "vol": 0.07,
+      "r": 0.24
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "F3",
+     "dur": 2.0,
+     "opts": {
+      "vol": 0.035
+     }
+    }
+   ]
+  },
+  "A-drop-pad": {
+   "bpm": 120,
+   "len": 16,
+   "vol": 1,
+   "steps": [
+    {
+     "i": [
+      0,
+      8
+     ],
+     "voice": "kick",
+     "opts": {
+      "vol": 0.29
+     }
+    },
+    {
+     "i": [
+      4,
+      12
+     ],
+     "voice": "snare",
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "every": 2,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.038
+     }
+    },
+    {
+     "i": 0,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.5,
+     "opts": {
+      "vol": 0.1
+     }
+    },
+    {
+     "i": 8,
+     "voice": "bass",
+     "note": "D2",
+     "dur": 0.45,
+     "opts": {
+      "vol": 0.12
+     }
+    },
+    {
+     "i": 0,
+     "voice": "lead",
+     "note": "G4",
+     "dur": 0.45,
+     "opts": {
+      "vol": 0.072,
+      "r": 0.17
+     }
+    },
+    {
+     "i": 4,
+     "voice": "lead",
+     "note": "B4",
+     "dur": 0.34,
+     "opts": {
+      "vol": 0.062,
+      "r": 0.2
+     }
+    },
+    {
+     "i": 8,
+     "voice": "lead",
+     "note": "D5",
+     "dur": 0.48,
+     "opts": {
+      "vol": 0.082,
+      "r": 0.23
+     }
+    },
+    {
+     "i": 12,
+     "voice": "lead",
+     "note": "G5",
+     "dur": 0.41,
+     "opts": {
+      "vol": 0.058,
+      "r": 0.18
+     }
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "track": "A",
+   "bars": 4
+  },
+  {
+   "track": "A-drop-bass",
+   "bars": 4
+  },
+  {
+   "track": "A",
+   "bars": 4
+  },
+  {
+   "track": "A-drop-pad",
+   "bars": 4
+  }
+ ]
+}

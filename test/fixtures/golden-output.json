@@ -1,0 +1,16 @@
+{
+  "kitVersion": {
+    "semver": "1.1.0",
+    "sha": "b2709519f2faf8481de28e0a5e9912cd2e80ae9e290fdfca88915c0377aaf773"
+  },
+  "toolchain": {
+    "node": "v25.9.0",
+    "nodeWebAudioApi": "2.2.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "sampleRate": 44100,
+  "frames": 108046,
+  "bytes": 432228,
+  "outputSha256": "3148a0b33275df572541de1f6ad17a5f0cba3496c669905e0f048fb02eea15ea"
+}

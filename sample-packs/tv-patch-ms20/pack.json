@@ -1,0 +1,181 @@
+{
+  "format": "house-band-sample-pack",
+  "formatVersion": "1.1.0",
+  "packId": "tv-patch-ms20",
+  "displayName": "Timbre Range patches: MS-20 renders",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "builderVersion": "1.1.0",
+  "sampleRate": 44100,
+  "assetFormat": "PCM16LE RIFF/WAVE 44100Hz mono",
+  "provenance": "Ray Weiss's first-party sample library (ray-samples/Homebrew MS 20), per the 2026-08-09 House Band founding (README Timbre-Variety Law)",
+  "attribution": "MS-20-named samples from Ray Weiss's sample library (ray-samples / Homebrew MS 20); Ray pick #1, blanket-endorsed; first-party per the 2026-08-09 House Band founding (README Timbre-Variety Law).",
+  "licenseRef": "first-party operator library",
+  "assetCount": 5,
+  "totalWavBytes": 864580,
+  "totalPcmBytes": 864360,
+  "contentSha256": "38fc8575471d52be5c89dbba4dafd151beee398ffdfeb2ce9863e09f041cc0d8",
+  "assets": [
+    {
+      "id": "ms20-bass-c2",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 bass c2",
+      "file": "assets/ms20-bass-c2.wav",
+      "sourceCollection": "ray-samples / Homebrew MS 20",
+      "sourcePath": "Homebrew MS 20/ms20-bass9.wav",
+      "sourceSha256": "933a97f5d42e7531c0895230c60677ae5397cbd1162a169951d8ddc4bff49cf8",
+      "wavSha256": "851f8ce1f852d916e789b3ec26947a94f85b8d6cbb87fa0183558826fb00fc43",
+      "pcmSha256": "46a7d5fdf048762623022cefc43fd88c7df808f53c43b59ae15c6ce045cb5bde",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "frameCount": 79380,
+      "peakAbs": 16423,
+      "suggestedVoice": "sampler",
+      "rootNote": 36,
+      "rootNoteSource": "declared",
+      "measuredF0Millihertz": 64443,
+      "tags": [
+        "bass",
+        "ms20",
+        "plucked"
+      ],
+      "transformLog": [
+        "decoded RIFF/WAVE format=1 channels=1 rate=44100 bits=16",
+        "preserved mono channel",
+        "preserved 44100 Hz sample rate",
+        "quantized to signed PCM16LE with nearest, ties away from zero; no dither; gain 1",
+        "trimmed 114897 frames to 79380 with a 441-frame linear tail fade",
+        "root note 36 from declared, verified against measured f0 64443 millihertz"
+      ]
+    },
+    {
+      "id": "ms20-bass-lp",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 bass lp",
+      "file": "assets/ms20-bass-lp.wav",
+      "sourceCollection": "ray-samples / Homebrew MS 20",
+      "sourcePath": "Homebrew MS 20/ms20lpbass.wav",
+      "sourceSha256": "f881e6448555b722921336b081a94aeacf8b7e5e1cb73ea25cb8fb68649b8b26",
+      "wavSha256": "677af687655477ff0ddde523e67fe33846864d08e3fbd99bca76cf940efa17c9",
+      "pcmSha256": "a9557700acd826569d7194b04b82467e42d01c8a2d8798fb3af5ba7321d61e75",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "frameCount": 97020,
+      "peakAbs": 16435,
+      "suggestedVoice": "sampler",
+      "rootNote": 36,
+      "rootNoteSource": "declared",
+      "measuredF0Millihertz": 64574,
+      "tags": [
+        "bass",
+        "ms20",
+        "filtered"
+      ],
+      "transformLog": [
+        "decoded RIFF/WAVE format=1 channels=1 rate=44100 bits=16",
+        "preserved mono channel",
+        "preserved 44100 Hz sample rate",
+        "quantized to signed PCM16LE with nearest, ties away from zero; no dither; gain 1",
+        "trimmed 178177 frames to 97020 with a 441-frame linear tail fade",
+        "root note 36 from declared, verified against measured f0 64574 millihertz"
+      ]
+    },
+    {
+      "id": "ms20-bell-c3",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 bell c3",
+      "file": "assets/ms20-bell-c3.wav",
+      "sourceCollection": "ray-samples / Homebrew MS 20",
+      "sourcePath": "Homebrew MS 20/ms20-bell.wav",
+      "sourceSha256": "3f62bd24e66348607c23fa5713a4fc2f1ced12758bdecf180dd46317e09422a3",
+      "wavSha256": "0810618a7a322507cac818bf2f1a719564159708a9f9a4d3d940549bf0d6690b",
+      "pcmSha256": "7bbb2d53ffe483a7dfff4df061f6cda1874ef8f82fa243fec734df9851d1a8b8",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "frameCount": 79380,
+      "peakAbs": 8573,
+      "suggestedVoice": "sampler",
+      "rootNote": 48,
+      "rootNoteSource": "declared",
+      "measuredF0Millihertz": 129381,
+      "tags": [
+        "bell",
+        "ms20"
+      ],
+      "transformLog": [
+        "decoded RIFF/WAVE format=1 channels=1 rate=44100 bits=16",
+        "preserved mono channel",
+        "preserved 44100 Hz sample rate",
+        "quantized to signed PCM16LE with nearest, ties away from zero; no dither; gain 1",
+        "trimmed 177537 frames to 79380 with a 441-frame linear tail fade",
+        "root note 48 from declared, verified against measured f0 129381 millihertz"
+      ]
+    },
+    {
+      "id": "ms20-square-c4",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 square c4",
+      "file": "assets/ms20-square-c4.wav",
+      "sourceCollection": "ray-samples / Homebrew MS 20",
+      "sourcePath": "Homebrew MS 20/ms20 clearysquare.wav",
+      "sourceSha256": "790d50f3af946b85d0e602456fa36804a8951f3878cf933913763305b9f8d707",
+      "wavSha256": "e246a93a6c75535f5f7a03174a1861f0317e839074b7ed75c8169b18c539a32a",
+      "pcmSha256": "903c478e226ab8a4d6f6e9a01576e01293b3701b4d8dd3f52c616b0d2b52fb88",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "frameCount": 88200,
+      "peakAbs": 18340,
+      "suggestedVoice": "sampler",
+      "rootNote": 60,
+      "rootNoteSource": "declared",
+      "measuredF0Millihertz": 262411,
+      "tags": [
+        "lead",
+        "ms20",
+        "square"
+      ],
+      "transformLog": [
+        "decoded RIFF/WAVE format=1 channels=1 rate=44100 bits=16",
+        "preserved mono channel",
+        "preserved 44100 Hz sample rate",
+        "quantized to signed PCM16LE with nearest, ties away from zero; no dither; gain 1",
+        "trimmed 121276 frames to 88200 with a 441-frame linear tail fade",
+        "root note 60 from declared, verified against measured f0 262411 millihertz"
+      ]
+    },
+    {
+      "id": "ms20-tinkle-c5",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 tinkle c5",
+      "file": "assets/ms20-tinkle-c5.wav",
+      "sourceCollection": "ray-samples / Homebrew MS 20",
+      "sourcePath": "Homebrew MS 20/ms20 tinkle.wav",
+      "sourceSha256": "a7e9ec5eb8702a152ff607b987cb35ddfa18d29fd25287cdb09154cb0e321192",
+      "wavSha256": "70c4b58462a02b59a942fff5944acfcfe769b01ca80de14d5120b0aff3767ecc",
+      "pcmSha256": "7d28d441fab7eec57faf91001c703bc8a34154e1d11f6417c4aafbe569fdba3d",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "frameCount": 88200,
+      "peakAbs": 17498,
+      "suggestedVoice": "sampler",
+      "rootNote": 72,
+      "rootNoteSource": "declared",
+      "measuredF0Millihertz": 520059,
+      "tags": [
+        "bell",
+        "ms20",
+        "tinkle"
+      ],
+      "transformLog": [
+        "decoded RIFF/WAVE format=1 channels=1 rate=44100 bits=16",
+        "preserved mono channel",
+        "preserved 44100 Hz sample rate",
+        "quantized to signed PCM16LE with nearest, ties away from zero; no dither; gain 1",
+        "trimmed 263057 frames to 88200 with a 441-frame linear tail fade",
+        "root note 72 from declared, verified against measured f0 520059 millihertz"
+      ]
+    }
+  ],
+  "manifestSha256": "52fdb4e8241571241321eceb24abc2e38f3c6f450ae7227d462d8143793e5cff"
+}

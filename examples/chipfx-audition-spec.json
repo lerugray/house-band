@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.1.0",
+  "kitVersion": {
+    "semver": "1.3.0",
+    "sha": "8ac798658c15d33ffbc6b1a4286bd155f78be4ffb825860d57958c7aca17680c"
+  },
+  "seed": 20260817,
+  "tempo": 125,
+  "sampleRate": 44100,
+  "gain": 0.55,
+  "label": "CHIP-FX audition bank (NOT a register): register-neutral isolated effect demos plus one neutral exemplar phrase. Kit-demo only; do not ship.",
+  "register": {
+    "name": "kit-demo",
+    "briefRef": "docs/REGISTER-KIT-DEMO.md"
+  },
+  "tracks": {
+    "arp-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C4", "dur": 1.8, "opts": { "vol": 0.1, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "arp", "intervals": [0, 4, 7, 12] }] } }
+      ]
+    },
+    "porta-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C4", "dur": 1.5, "opts": { "vol": 0.1, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "porta", "target": "G4", "rate": 1.5 }] } }
+      ]
+    },
+    "vibrato-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipTriangle", "note": "A4", "dur": 1.6, "opts": { "vol": 0.12, "vibrato": 6, "vibratoDepth": 0.006, "vibratoDelay": 0.1, "ticksPerRow": 6, "tickDuration": 0.02 } }
+      ]
+    },
+    "duty-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C4", "dur": 1.8, "opts": { "vol": 0.1, "duty": 0.75, "dutySweep": 0.125, "ticksPerRow": 6, "tickDuration": 0.02 } }
+      ]
+    },
+    "cut-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C5", "dur": 0.9, "opts": { "vol": 0.1, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "cut", "tick": 12 }] } }
+      ]
+    },
+    "retrig-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C5", "dur": 0.9, "opts": { "vol": 0.1, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "retrig", "tick": 2, "every": 2 }] } }
+      ]
+    },
+    "volslide-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C4", "dur": 1.4, "opts": { "vol": 0.12, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "volSlide", "rate": -0.015 }] } }
+      ]
+    },
+    "tremolo-demo": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.75,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C4", "dur": 1.4, "opts": { "vol": 0.12, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "tremolo", "rate": 10, "depth": 0.4, "delay": 0.05 }] } }
+      ]
+    },
+    "noise-kick": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.8,
+      "steps": [
+        { "i": 0, "voice": "chipNoise", "note": "C2", "dur": 0.18, "opts": { "mode": "periodic", "vol": 0.25, "cut": 600, "f0": 180, "f1": 40, "a": 0.002, "d": 0.12, "s": 0.01, "r": 0.04, "ticksPerRow": 6, "tickDuration": 0.02 } }
+      ]
+    },
+    "noise-snare": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.8,
+      "steps": [
+        { "i": 0, "voice": "chipNoise", "note": "C3", "dur": 0.16, "opts": { "mode": "white", "vol": 0.16, "cut": 4500, "q": 0.8, "a": 0.002, "d": 0.08, "s": 0.05, "r": 0.06, "ticksPerRow": 6, "tickDuration": 0.02 } }
+      ]
+    },
+    "noise-hat": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.8,
+      "steps": [
+        { "i": 0, "voice": "chipNoise", "note": "C5", "dur": 0.05, "opts": { "mode": "white", "vol": 0.1, "cut": 9000, "a": 0.001, "d": 0.03, "s": 0.01, "r": 0.02, "ticksPerRow": 6, "tickDuration": 0.02 } }
+      ]
+    },
+    "exemplar": {
+      "bpm": 125,
+      "len": 16,
+      "vol": 0.8,
+      "steps": [
+        { "i": 0, "voice": "chipPulse", "note": "C4", "dur": 0.45, "opts": { "vol": 0.09, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "arp", "intervals": [0, 4, 7] }] } },
+        { "i": 4, "voice": "chipPulse", "note": "G3", "dur": 0.45, "opts": { "vol": 0.09, "duty": 0.25, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "arp", "intervals": [0, 3, 7] }, { "type": "porta", "target": "C4", "rate": 1 }] } },
+        { "i": 8, "voice": "chipPulse", "note": "F3", "dur": 0.45, "opts": { "vol": 0.09, "duty": 0.125, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "arp", "intervals": [0, 4, 7] }] } },
+        { "i": 12, "voice": "chipPulse", "note": "G3", "dur": 0.45, "opts": { "vol": 0.09, "duty": 0.5, "ticksPerRow": 6, "tickDuration": 0.02, "fx": [{ "type": "arp", "intervals": [0, 3, 7] }] } },
+        { "i": [0, 4, 8, 12], "voice": "chipNoise", "note": "C2", "dur": 0.16, "opts": { "mode": "periodic", "vol": 0.14, "cut": 500, "f0": 160, "f1": 35, "a": 0.002, "d": 0.1, "s": 0.01, "r": 0.04, "ticksPerRow": 6, "tickDuration": 0.02 } },
+        { "i": [4, 12], "voice": "chipNoise", "note": "C3", "dur": 0.12, "opts": { "mode": "white", "vol": 0.09, "cut": 5000, "a": 0.002, "d": 0.06, "s": 0.02, "r": 0.04, "ticksPerRow": 6, "tickDuration": 0.02 } },
+        { "i": [2, 6, 10, 14], "voice": "chipNoise", "note": "C5", "dur": 0.04, "opts": { "mode": "white", "vol": 0.06, "cut": 10000, "a": 0.001, "d": 0.025, "s": 0.01, "r": 0.015, "ticksPerRow": 6, "tickDuration": 0.02 } }
+      ]
+    }
+  },
+  "sections": [
+    { "track": "arp-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "porta-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "vibrato-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "duty-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "cut-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "retrig-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "volslide-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "tremolo-demo", "bars": 1, "fadeIn": 0.02 },
+    { "track": "noise-kick", "bars": 1, "fadeIn": 0.02 },
+    { "track": "noise-snare", "bars": 1, "fadeIn": 0.02 },
+    { "track": "noise-hat", "bars": 1, "fadeIn": 0.02 },
+    { "track": "exemplar", "bars": 12, "fadeIn": 0.02 }
+  ]
+}

@@ -1,0 +1,58 @@
+# Ray enables Pages (Settings > Pages > Source: GitHub Actions) and runs this by hand for
+# the first deploy.
+name: pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      # D4: the Darkness and Appendix N soundtrack audio is all rights reserved, streamed on the page only, and not
+      # in this repo. It is copied into the Pages artifact from a private source repo at deploy time:
+      # repo variable PAGE_AUDIO_REPO (owner/name), optional PAGE_AUDIO_REF, and secret PAGE_AUDIO_SSH_KEY (a
+      # read-only deploy key on that repo). The source holds the files under site/audio/; their sha256 must match
+      # site/SOURCES.md.
+      - name: Require the page-audio source
+        env:
+          PAGE_AUDIO_REPO: ${{ vars.PAGE_AUDIO_REPO }}
+        run: test -n "$PAGE_AUDIO_REPO" || { echo "::error::set the PAGE_AUDIO_REPO variable and PAGE_AUDIO_SSH_KEY secret (see the comment above)"; exit 1; }
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.PAGE_AUDIO_REPO }}
+          ref: ${{ vars.PAGE_AUDIO_REF }}
+          ssh-key: ${{ secrets.PAGE_AUDIO_SSH_KEY }}
+          path: .page-audio
+          filter: blob:none
+          sparse-checkout: site/audio
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The two Stageshow demos are built bundles (site/demos/dist/ is not committed).
+      - run: npm ci
+        working-directory: site/demos
+      - run: node build.mjs
+        working-directory: site/demos
+      - run: node site/tools/stage-page-audio.mjs .page-audio/site/audio
+      - run: node site/tools/stage-page-audio.mjs --check
+      - run: node site/tools/check-links.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

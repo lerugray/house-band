@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "kitVersion": {
+    "semver": "1.1.0",
+    "sha": "b2709519f2faf8481de28e0a5e9912cd2e80ae9e290fdfca88915c0377aaf773"
+  },
+  "seed": 1,
+  "tempo": 120,
+  "sampleRate": 44100,
+  "gain": 0.5,
+  "label": "Synthetic mechanical fixture: grid-perfect onsets, constant velocity, constant lead release, identical repeated sections.",
+  "register": {
+    "name": "audit-mechanical",
+    "briefRef": "docs/REGISTER-KIT-DEMO.md"
+  },
+  "tracks": {
+    "loop": {
+      "bpm": 120,
+      "len": 16,
+      "vol": 1,
+      "steps": [
+        { "i": [0, 8], "voice": "kick", "opts": { "vol": 0.28 } },
+        { "i": [4, 12], "voice": "snare", "opts": { "vol": 0.1 } },
+        { "every": 2, "voice": "hat", "opts": { "vol": 0.035 } },
+        { "i": 0, "voice": "bass", "note": "C2", "dur": 0.5, "opts": { "vol": 0.11 } },
+        { "i": 8, "voice": "bass", "note": "G1", "dur": 0.5, "opts": { "vol": 0.11 } },
+        { "i": 0, "voice": "lead", "note": "C4", "dur": 0.4, "opts": { "vol": 0.07, "r": 0.2 } },
+        { "i": 4, "voice": "lead", "note": "E4", "dur": 0.4, "opts": { "vol": 0.07, "r": 0.2 } },
+        { "i": 8, "voice": "lead", "note": "G4", "dur": 0.4, "opts": { "vol": 0.07, "r": 0.2 } },
+        { "i": 12, "voice": "lead", "note": "C5", "dur": 0.4, "opts": { "vol": 0.07, "r": 0.2 } },
+        { "i": 0, "voice": "pad", "note": "C3", "dur": 2.0, "opts": { "vol": 0.04 } }
+      ]
+    }
+  },
+  "sections": [
+    { "track": "loop", "bars": 4 },
+    { "track": "loop", "bars": 4 },
+    { "track": "loop", "bars": 4 },
+    { "track": "loop", "bars": 4 }
+  ]
+}

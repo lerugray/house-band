@@ -1,0 +1,6 @@
+# Page-only soundtrack audio (Darkness, Appendix N): all rights reserved, streamed on the landing page only and
+# never committed here. The Pages workflow stages it into the deploy artifact (site/tools/stage-page-audio.mjs).
+ab/
+appendix-n/
+darkness/
+examples/

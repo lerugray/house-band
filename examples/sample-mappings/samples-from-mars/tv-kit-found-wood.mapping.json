@@ -1,0 +1,193 @@
+{
+  "packId": "tv-kit-found-wood",
+  "displayName": "Timbre Range kit: Found wood and tin",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Chopping Boards Kick.wav",
+      "id": "kick",
+      "displayName": "Found wood and tin (found-sound kit): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "expectedSourceSha256": "bab3874cfd0490735cb2eb5c3cda295b502c669b5a2fb78fc3d5e12e578fc838"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Metal Kick Double Speed.wav",
+      "id": "kick-b",
+      "displayName": "Found wood and tin (found-sound kit): kick b",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "expectedSourceSha256": "615b366ab0996518e3a7fea7684132a6e5ed094a9535c95b7764745a88d7486b"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Wood Snare.wav",
+      "id": "snare",
+      "displayName": "Found wood and tin (found-sound kit): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.55,
+      "expectedSourceSha256": "a7c0118c4bcdf3c50f5359957c2cdc9e5d44e4352b4484ce8e8536545840432b"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/TwigSnap2 Tube.wav",
+      "id": "hat-closed",
+      "displayName": "Found wood and tin (found-sound kit): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "expectedSourceSha256": "89b0442eb872bef45ec7d222643ec9143437a285e6309d4f0bd19b5e81ec8035"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Squelch Melon.wav",
+      "id": "hat-open",
+      "displayName": "Found wood and tin (found-sound kit): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.72,
+      "rootNote": 60,
+      "expectedSourceSha256": "9f1bbefd592a9ca618d19344026d8ec1cd92e18ad909d6557f2a172895ec8701"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Water Slap 01.wav",
+      "id": "snare-b",
+      "displayName": "Found wood and tin (found-sound kit): snare b",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.6,
+      "expectedSourceSha256": "324ced582326ca2ea864bab018632733b55215f68b1d7103ce600d226886dccb"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Big Plastic Bin 02.wav",
+      "id": "tom-low",
+      "displayName": "Found wood and tin (found-sound kit): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.5,
+      "rootNote": 60,
+      "expectedSourceSha256": "adbfbcd2d4c34ff45932d709a27fbd65ed2c73b2a3adb7424dee4ab359292dcc"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Tom Open Pot Wood 01.wav",
+      "id": "tom-mid",
+      "displayName": "Found wood and tin (found-sound kit): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.6,
+      "rootNote": 60,
+      "expectedSourceSha256": "685a224fc3739ea469dc95771f767082148e96be4c8dc746224c8c2bb0731aa5"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Wood Tom 02.wav",
+      "id": "tom-high",
+      "displayName": "Found wood and tin (found-sound kit): tom high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.45,
+      "rootNote": 60,
+      "expectedSourceSha256": "c4afae5e1b547a4013e2f42097296c732099c8998d20009f2f1a077d60f0918e"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Mouth Pop.wav",
+      "id": "clap",
+      "displayName": "Found wood and tin (found-sound kit): clap",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "e1659c74084acf3438d7585b3df69addb856d4685d388e944cf4ce5a7af3ba84"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Wood Rim Shot.wav",
+      "id": "rim",
+      "displayName": "Found wood and tin (found-sound kit): rim",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.15,
+      "rootNote": 60,
+      "expectedSourceSha256": "10a047e81843d0beb04b186a3386d663d5ad8f2af6c3b359f4aa0f7b9da87f73"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Ruler Twang.wav",
+      "id": "ride",
+      "displayName": "Found wood and tin (found-sound kit): ride",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.78,
+      "rootNote": 60,
+      "expectedSourceSha256": "bb1c158ecd596944d8a2bac39171343a6fcf6e93e076a8b07f916483b28acfd9"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Silo Impact Slam.wav",
+      "id": "crash",
+      "displayName": "Found wood and tin (found-sound kit): crash",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.6,
+      "rootNote": 60,
+      "expectedSourceSha256": "8086b362da3dc6aaf360a92b443b9a02aa62dfadd16fb86ac258582320e83663"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/Poison Dart Short.wav",
+      "id": "twang",
+      "displayName": "Found wood and tin (found-sound kit): twang",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.56,
+      "rootNote": 60,
+      "expectedSourceSha256": "d95234a6d9cc1637c35b47ea05936389ab0f2da7327bef189362b7039e8fd36f"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Found Sounds From Mars/01. Arthur Ashe Kit/TreeChop HalfSpeed.wav",
+      "id": "chop",
+      "displayName": "Found wood and tin (found-sound kit): chop",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.28,
+      "rootNote": 60,
+      "expectedSourceSha256": "e089895c317d084f796aaae9f6c5b0695da520358242ffb5cf26074393ae4b3f"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "8220971f44a683e95853709d6367d7c9f6cc0d33d5f68e4c12baa035c44240d4",
+    "contentSha256": "8611e2efbcbcae9188eeeb3d229f15ba59a35aecd30c96353b563bf8f8a23d3e"
+  }
+}

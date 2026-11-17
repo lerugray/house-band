@@ -1,0 +1,11 @@
+{
+  "legacyDemoOutputSha256": "27ccac2dad7a055d579d91baa0e2fa4281b74b8b9424b2f483fdc5bb321edee5",
+  "legacyDemoOutputSha256PreKit190": "8590ca62bf3a6030dc149b16f0439140cc57c2c60708e75a252a32536b01e56d",
+  "legacyDemoPreKit190Frames": 725445,
+  "_legacyDemoNote": "CHANGED IN KIT 1.9.0 by the render-tail budget fix, and the change is PURELY ADDITIVE. examples/demo-spec.json holds a pad with dur 3.5 and r 0.25 \u2014 a 3.75s tail \u2014 against a 15.0s score, but the buffer was budgeted at a constant 1.45s, so the file ended at 16.450s with its final 10ms still at -24.8 dB below peak: a hard cut mid-decay. The 1.9.0 render reserves the score's real overhang and ends at 19.450s, final 10ms at -118.8 dB. VERIFIED: the first 725445 frames of the new render are BIT-IDENTICAL to the whole of the old one (float compare maxAbsDiff 0, and the PCM byte prefix compares equal) \u2014 see the 'appends the cut tail without altering a single rendered frame' test below. Nothing that was audible before has changed; the render simply no longer stops mid-tail.",
+  "sampleOutputSha256": "15b31acb40568368a6d49b1a34704f4bac4f7b08a993ae15dd8b66a606e42a19",
+  "sampleFrames": 152145,
+  "sampleBytes": 608624,
+  "packManifestSha256": "6de49d9c853ea1f95546debfeff95f5f00236c31d04b705289ebb491b6644d86",
+  "packContentSha256": "cd4eb71948d0bfe9e725bdbacf72b501e9b2ebb5731809d27a49e967a907b666"
+}

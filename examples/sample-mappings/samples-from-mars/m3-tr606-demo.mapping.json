@@ -1,0 +1,60 @@
+{
+  "packId": "m3-tr606-demo",
+  "displayName": "M3 TR-606 Demo One-Shots",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-08-11T12:00:00Z",
+  "provenance": "purchased commercial sample collection (Samples From Mars)",
+  "attribution": "Selected by Ray Weiss from the operator-owned Essential WAV From Mars library for House Band custody-render proof.",
+  "licenseRef": "first-party operator library",
+  "sourceCollection": "Essential WAV From Mars",
+  "assets": [
+    {
+      "sourceFile": "Drums/01. Individual Hits/01. Bass Drum/BD 606 Clean.wav",
+      "id": "tr606-kick-clean",
+      "displayName": "TR-606 Kick Clean",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-machine",
+        "tr-606",
+        "kick",
+        "clean",
+        "one-shot"
+      ],
+      "expectedSourceSha256": "ccf292f6568b0ab964f880095103f4897e27df2432f65d998e689da52cd9dfa4"
+    },
+    {
+      "sourceFile": "Drums/01. Individual Hits/02. Snare Drum/SD 606 Clean.wav",
+      "id": "tr606-snare-clean",
+      "displayName": "TR-606 Snare Clean",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-machine",
+        "tr-606",
+        "snare",
+        "clean",
+        "one-shot"
+      ],
+      "expectedSourceSha256": "878c086c261029cbb70b21a3ae539895fa9d18af2bb2db7788c3cb8711e646e8"
+    },
+    {
+      "sourceFile": "Drums/01. Individual Hits/04. Hi Hat/CH/CH 606 Clean.wav",
+      "id": "tr606-hat-closed-clean",
+      "displayName": "TR-606 Closed Hat Clean",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-machine",
+        "tr-606",
+        "closed-hat",
+        "clean",
+        "one-shot"
+      ],
+      "expectedSourceSha256": "ff2d64a2ca6a5c557bc57dd7c005be3091f857463b3b77067c4acd6ed1ca828d"
+    }
+  ],
+  "libraryRootHint": "the 'Essential WAV From Mars' folder itself",
+  "expected": {
+    "manifestSha256": "55bb96767e00ab9f0214f5e079d3f3561c642744274642d570a52d093dcda019",
+    "contentSha256": "d84896121486eab58ae83e64beb638dd9c89db1b544b0164540cf856378d0f23"
+  }
+}

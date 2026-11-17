@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.1.0",
+  "kitVersion": {
+    "semver": "1.3.0",
+    "sha": "8ac798658c15d33ffbc6b1a4286bd155f78be4ffb825860d57958c7aca17680c"
+  },
+  "seed": 20260822,
+  "tempo": 120,
+  "sampleRate": 44100,
+  "gain": 0.5,
+  "label": "Synthetic HSMD same-bed-presented-as-new enforcement fixture.",
+  "register": {
+    "name": "audit-harmonic-reuse",
+    "briefRef": "docs/REGISTER-KIT-DEMO.md"
+  },
+  "performance": {
+    "humanize": {
+      "timingMs": [-4, 4],
+      "velocity": [-0.03, 0.03]
+    }
+  },
+  "tracks": {
+    "A": {
+      "bpm": 120,
+      "len": 64,
+      "vol": 1,
+      "steps": [
+        { "i": 0, "voice": "pad", "note": "C3", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 0, "voice": "pad", "note": "E3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 0, "voice": "pad", "note": "G3", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } },
+        { "i": 16, "voice": "pad", "note": "A2", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 16, "voice": "pad", "note": "C3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 16, "voice": "pad", "note": "E3", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } },
+        { "i": 32, "voice": "pad", "note": "F3", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 32, "voice": "pad", "note": "A3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 32, "voice": "pad", "note": "C4", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } },
+        { "i": 48, "voice": "pad", "note": "G3", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 48, "voice": "pad", "note": "B3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 48, "voice": "pad", "note": "D4", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } }
+      ]
+    },
+    "B": {
+      "bpm": 120,
+      "len": 64,
+      "vol": 1,
+      "steps": [
+        { "i": 0, "voice": "pad", "note": "D3", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 0, "voice": "pad", "note": "F#3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 0, "voice": "pad", "note": "A3", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } },
+        { "i": 16, "voice": "pad", "note": "B2", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 16, "voice": "pad", "note": "D3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 16, "voice": "pad", "note": "F#3", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } },
+        { "i": 32, "voice": "pad", "note": "G3", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 32, "voice": "pad", "note": "B3", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 32, "voice": "pad", "note": "D4", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } },
+        { "i": 48, "voice": "pad", "note": "A3", "dur": 2, "opts": { "vol": 0.08, "r": 0.8 } },
+        { "i": 48, "voice": "pad", "note": "C#4", "dur": 2, "opts": { "vol": 0.07, "r": 0.8 } },
+        { "i": 48, "voice": "pad", "note": "E4", "dur": 2, "opts": { "vol": 0.06, "r": 0.8 } }
+      ]
+    }
+  },
+  "sections": [
+    { "track": "A", "bars": 4 },
+    { "track": "B", "bars": 4 }
+  ]
+}

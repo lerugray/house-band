@@ -1,0 +1,182 @@
+{
+  "packId": "tv-kit-dystopian-tech",
+  "displayName": "Timbre Range kit: Dystopian tech",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/BD Modular Sub Vinyl 01.wav",
+      "id": "kick",
+      "displayName": "Dystopian tech (modular and vintage machines): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.1,
+      "expectedSourceSha256": "b3a937e1348b57c110decfb586b16633be81ef8d39f7332cf62ef53e3a455cf7"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/SD 606 Dark Lo Vinyl 02.wav",
+      "id": "snare",
+      "displayName": "Dystopian tech (modular and vintage machines): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.34,
+      "expectedSourceSha256": "d20809ec3f462f47a51c9a39b8fff7bb013b6b07149b5a9a25b254e6b64108f7"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/SD 808 Verb Vinyl 01.wav",
+      "id": "snare-b",
+      "displayName": "Dystopian tech (modular and vintage machines): snare b",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.37,
+      "expectedSourceSha256": "c6d8267614960f7ace75b2d55f7df60b23dec539458baa2a9dce883a4919e54c"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/HH MR10 Dust CH Vinyl.wav",
+      "id": "hat-closed",
+      "displayName": "Dystopian tech (modular and vintage machines): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.22,
+      "expectedSourceSha256": "f6195d962e9206ed5907c985c351fc44906fa04df160528483f5d16cec104629"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/HH MR10 Dirt OH Vinyl.wav",
+      "id": "hat-open",
+      "displayName": "Dystopian tech (modular and vintage machines): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.95,
+      "rootNote": 60,
+      "expectedSourceSha256": "b6c4940cc7c1445de932f7881967e62db68b12be5391acb3f54d84f34d734207"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Tom Modular Wobble Vinyl.wav",
+      "id": "tom-low",
+      "displayName": "Dystopian tech (modular and vintage machines): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.1,
+      "rootNote": 60,
+      "expectedSourceSha256": "227b03e013522bbd17e858318481b7fa36a38cd182b958d8925048d82953ccb9"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Tom Perkons Skin Big Vinyl 01.wav",
+      "id": "tom-mid",
+      "displayName": "Dystopian tech (modular and vintage machines): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.78,
+      "rootNote": 60,
+      "expectedSourceSha256": "beab6e015e56a4fe76aae5058a81d48fa1fba7f606e90119acbe327db82bdf55"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Tom Machinedrum Broken Vinyl.wav",
+      "id": "tom-high",
+      "displayName": "Dystopian tech (modular and vintage machines): tom high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.28,
+      "rootNote": 60,
+      "expectedSourceSha256": "e29d9eec8e14e628ea2991708c902b967911d5a9de1c474da7e19b4e425a5ac5"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Clap 505 Flange Vinyl 01.wav",
+      "id": "clap",
+      "displayName": "Dystopian tech (modular and vintage machines): clap",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "rootNote": 60,
+      "expectedSourceSha256": "fccc2ce3c2f40c7e81ebf005ee58b2d307a5c9b4b806bcce107e98d1ac3fe319"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Duck Wendel Vari Vinyl 05.wav",
+      "id": "rim",
+      "displayName": "Dystopian tech (modular and vintage machines): rim",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.17,
+      "rootNote": 60,
+      "expectedSourceSha256": "62b80331ee047789f77e2fbc6218fe8d8b936ec2cd95b63f1fea8dcfcc38620a"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/HH 606 Sharp OH Gate Vinyl.wav",
+      "id": "ride",
+      "displayName": "Dystopian tech (modular and vintage machines): ride",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.9,
+      "rootNote": 60,
+      "expectedSourceSha256": "4c827dad9211da56bec46264b1ca9d9fac2c44c3187304d0923b2689674e2450"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Laser Modular Tight Vinyl.wav",
+      "id": "laser",
+      "displayName": "Dystopian tech (modular and vintage machines): laser",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "rootNote": 60,
+      "expectedSourceSha256": "17b866fd6b15c4334b60478fcc6a05210550066787da20f7ca9a4c52240a24fa"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Guiro CR78 Bend Vinyl 01.wav",
+      "id": "guiro",
+      "displayName": "Dystopian tech (modular and vintage machines): guiro",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.93,
+      "rootNote": 60,
+      "expectedSourceSha256": "5eb8e2f8f213ddf9df66ab4680900701881b6545366ad1b911a9276f3863a8dc"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drum Machines From Mars/09. Dystopian Tech Kit/Bell Modular Hard Vinyl.wav",
+      "id": "bell",
+      "displayName": "Dystopian tech (modular and vintage machines): bell",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.23,
+      "rootNote": 60,
+      "expectedSourceSha256": "d104990613c24cc612ae8bbb7c374c1103809a9603a071aed9db0920981e2815"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "ddf122b25bd01262164d5b3f0c5f3811ac8ce31a0d3e25e8581801a1201b2c6a",
+    "contentSha256": "cd529cefab7d9859a8cf4df0ac72e462f0dc4b2c3ded1b6b3ba20d533f81b677"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scoreArtifactSha256": "900be1bb9cbb8ede0b03b32540493cecadd4ad30c2aebe01ececac334f334ff2",
+  "mixSha256": "61cc4e9ab0dacc5d0d5302826074d5e9c3c95ab478ebc327a71ae712d81665cb",
+  "stemSha256": {
+    "stem-kick.wav": "c470fcf7368da02e4572d009c193dbede6c2d61768839145d248ccf417521f51",
+    "stem-snare.wav": "0d90cb3aa481cef65cd88e230fc1251e023ed70c6d66b2e465df74f231dbed40",
+    "stem-hat.wav": "2aed7dc1dda2d80d87a093d71b39e701ff361f00b6bf75dd5a8a8d649555f242"
+  },
+  "wavBytes": 432228,
+  "_note": "scoreArtifactSha256 tracks KIT_VERSION because the persisted score pins it; refreshed for kit 1.9.0 (the thematic FX set: bitcrush / snesverb / tape, plus the spring and ringmod proposals). mixSha256, stemSha256 and wavBytes are DELIBERATELY unchanged from kit 1.6.0 through 1.8.0 \u2014 the new effects are audio-inert until a score declares them, and the two 1.9.0 bug fixes (chip release gating, render-tail budget) do not touch this score: it plays kick/snare/hat only, and its longest tail already fitted the historical budget. An unchanged mix hash here is the evidence that 1.9.0 does not trigger a re-ear-gate for existing non-chip scores."
+}

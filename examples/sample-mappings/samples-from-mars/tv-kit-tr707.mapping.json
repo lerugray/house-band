@@ -1,0 +1,204 @@
+{
+  "packId": "tv-kit-tr707",
+  "displayName": "Timbre Range kit: TR-707",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/BD A 707.wav",
+      "id": "kick",
+      "displayName": "TR-707 (sampled): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.12,
+      "expectedSourceSha256": "638b6cd0721b902f8cf8d96f34994338d7ee8b0b0c927ab0a515b9f4dcd5cad4"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/BD B 707.wav",
+      "id": "kick-b",
+      "displayName": "TR-707 (sampled): kick b",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.15,
+      "expectedSourceSha256": "06fc7f77d6f84f28af11a56f161001e277ea057c91d0f7ee574349ac8cae3367"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/SD A 707.wav",
+      "id": "snare",
+      "displayName": "TR-707 (sampled): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.18,
+      "expectedSourceSha256": "90ed730e193f02be1dd33c7f879b2042c1142ad65e1470f2a734a974c13f31ce"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/SD B 707.wav",
+      "id": "snare-b",
+      "displayName": "TR-707 (sampled): snare b",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.17,
+      "expectedSourceSha256": "a27a69da36e6bf6ea09ef68db4dbeec92e29a70cb766a7948748de8a4bb71575"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/SD B 707 Flam A.wav",
+      "id": "snare-flam",
+      "displayName": "TR-707 (sampled): snare flam",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.21,
+      "expectedSourceSha256": "b876bd086ceb8f823567800cbbf803d75a85c8b85f64b2694276396aa4571f77"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/CH 707.wav",
+      "id": "hat-closed",
+      "displayName": "TR-707 (sampled): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.18,
+      "expectedSourceSha256": "81e8b2b61883e153599db3b03b13a8b943f0e7ae66769ec1c25fbe5ff9f493fc"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/OH 707.wav",
+      "id": "hat-open",
+      "displayName": "TR-707 (sampled): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.36,
+      "rootNote": 60,
+      "expectedSourceSha256": "4211dd93a2c40de7637d901b032213a2c3ac6ab94fe1971ca9e1b7ab043ce967"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Tom Lo 707.wav",
+      "id": "tom-low",
+      "displayName": "TR-707 (sampled): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.72,
+      "rootNote": 60,
+      "expectedSourceSha256": "c0fb5eec6145ca3aede8d260ebb9c6f83910f19bf3d2ab246b7898629170a8cf"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Tom Mid 707.wav",
+      "id": "tom-mid",
+      "displayName": "TR-707 (sampled): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.72,
+      "rootNote": 60,
+      "expectedSourceSha256": "9e2079b5790608edded9ee0435aa4e0d3dca01296e035a81bd30a852b28179a9"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Tom Hi 707.wav",
+      "id": "tom-high",
+      "displayName": "TR-707 (sampled): tom high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.37,
+      "rootNote": 60,
+      "expectedSourceSha256": "575d26a2bfdf807475de2582765756a36f5c43a9f6097eb2fa6990a543aa873d"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Clap 707.wav",
+      "id": "clap",
+      "displayName": "TR-707 (sampled): clap",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.21,
+      "rootNote": 60,
+      "expectedSourceSha256": "064966f2147ea9153e105158004d5159b23ab2fd9f02cabf3da564eb77521ebc"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Rimshot 707.wav",
+      "id": "rim",
+      "displayName": "TR-707 (sampled): rim",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.22,
+      "rootNote": 60,
+      "expectedSourceSha256": "ab7f4e6931ade50612b7dfe200506799c574bf5c734697667ec057b93ca22026"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Ride 707.wav",
+      "id": "ride",
+      "displayName": "TR-707 (sampled): ride",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.5,
+      "rootNote": 60,
+      "expectedSourceSha256": "3833c09d33368f052a7421403fd8d21abcf047e98c12127d7f9845a8417d5508"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Crash 707.wav",
+      "id": "crash",
+      "displayName": "TR-707 (sampled): crash",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.4,
+      "rootNote": 60,
+      "expectedSourceSha256": "545ae745b3565b27f6e3265d41e67f110b3536403069d896003834bb84aa6c73"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Cowbell 707.wav",
+      "id": "cowbell",
+      "displayName": "TR-707 (sampled): cowbell",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.21,
+      "rootNote": 60,
+      "expectedSourceSha256": "4c5453cf1118334fb200f589c6cf8e516a4104bc16172ba5b8b6b6e56a2b5440"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/707 From Mars/01. Clean/Tambourine 707.wav",
+      "id": "tambourine",
+      "displayName": "TR-707 (sampled): tambourine",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.18,
+      "rootNote": 60,
+      "expectedSourceSha256": "a05268d13d8ef89f813fb425f3f525922eead7ca987da51ff558623f261999bc"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "ad1025fd632345a38c286c94c0818dd6904fbfa27ad58f1413411cc84b5bdbf9",
+    "contentSha256": "44cc4ceb601b519e79d47830996d31dca4524de37ae3a292caea051c89ca1f8e"
+  }
+}

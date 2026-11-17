@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>House Band</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section id="hero" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>House Band</h1>
+          <p class="subline">Music written as code. Your samples. Your songs.</p>
+          <div class="hero-actions">
+            <a class="btn btn-accent" href="#darkness">Listen</a>
+            <a class="btn btn-ghost" href="https://github.com/lerugray/house-band">Get started</a>
+          </div>
+        </div>
+        <div class="hero-stage">
+          <div id="band-hero" class="band-hero" data-slot="band-hero" aria-label="House Band pixel mascot"></div>
+          <div class="hero-player" data-slot="player-hero" id="player-hero"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="darkness" class="section">
+      <div class="wrap">
+        <h2>Darkness on the Edge of Town</h2>
+        <p class="lede">
+          All ten LS03 tracks. Pick a row to play it; each row shows the kit from its score
+          and a link to the score JSON.
+        </p>
+        <div class="slot slot-player" data-slot="player-darkness">
+          <div id="player-darkness" class="album-player"></div>
+          <ul class="album-list" id="darkness-album" aria-label="Darkness LS03 tracks"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="cowrite" class="section">
+      <div class="wrap">
+        <h2>Co-write: Appendix N, before and after</h2>
+        <p class="lede">
+          Two pairs of players. First Decent (title theme): Ray's sketch as written, then developed.
+          Maybe AN 2 (combat theme): the same before and after shape. Section markers sit on the
+          developed cues. Lists of what is Ray's and what House Band added are shortened from the
+          Appendix N listen notes.
+        </p>
+
+        <div class="cowrite-pair">
+          <h3>First Decent</h3>
+          <div class="cowrite-players">
+            <div>
+              <h4>Before (as written)</h4>
+              <div id="player-fd-before" data-slot="player-fd-before"></div>
+            </div>
+            <div>
+              <h4>After (developed)</h4>
+              <div id="player-fd-after" data-slot="player-fd-after"></div>
+            </div>
+          </div>
+          <div class="cowrite-lists">
+            <div>
+              <h4>Ray's</h4>
+              <ul id="fd-rays">
+                <li>Tempo 75 BPM and key A minor.</li>
+                <li>A (0:00) is your 16 bars: CMI pad voicings, harp and soft-piano lines, Renoise note delays kept as the strum.</li>
+                <li>A' (2:08) is your 16 bars again.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>House Band added</h4>
+              <ul id="fd-hb">
+                <li>Soft bass; shaker from 0:13; heartbeat kick and cello counter-line from 0:26.</li>
+                <li>B (0:51) from your earlier drafts; C (1:42) breathing space with no drums; D (2:59) a 4-bar turnaround.</li>
+                <li>Clarinet on A' singing the top voice of your pad; cello counter-line and fuller drums underneath.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cowrite-pair">
+          <h3>Maybe AN 2</h3>
+          <div class="cowrite-players">
+            <div>
+              <h4>Before (as written)</h4>
+              <div id="player-ma-before" data-slot="player-ma-before"></div>
+            </div>
+            <div>
+              <h4>After (developed)</h4>
+              <div id="player-ma-after" data-slot="player-ma-after"></div>
+            </div>
+          </div>
+          <div class="cowrite-lists">
+            <div>
+              <h4>Ray's</h4>
+              <ul id="ma-rays">
+                <li>A (0:00) is your loop, all four passes in your order with your own changes.</li>
+                <li>Eighth-note octave bass, Prophet bell line over the Buchla D drone, four-on-the-floor kick and off-beat tambourine from 0:10.</li>
+                <li>A' (1:55) is your loop again at its fullest.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>House Band added</h4>
+              <ul id="ma-hb">
+                <li>Glass pad from 0:10 and nylon-guitar counter-line from 0:30.</li>
+                <li>B (0:38) new harmony with an ocarina lead; C (1:16) the clearing; D (2:33) a chain of secondary dominants back into your loop.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="slot slot-demo" data-slot="demo-cowrite" aria-label="Co-write Stageshow demo">
+          <div class="demo-frame" id="demo-cowrite-root"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="samples" class="section">
+      <div class="wrap">
+        <h2>Bring your own samples</h2>
+        <p class="lede">
+          Point a folder of WAV files at House Band, check the role report, then render.
+          Blue marks your material; grey roles fall back to a synth kit.
+        </p>
+        <div class="slot slot-demo" data-slot="demo-samples" aria-label="Bring your own samples demo">
+          <div class="demo-frame" id="demo-samples-root"></div>
+        </div>
+        <ol class="steps">
+          <li><code>house-band samples scan ~/Samples/my-drums</code></li>
+          <li>Check the report, edit the mapping if needed</li>
+          <li><code>house-band render my-song.json --kit-map tr707=user:my-drums -o my-song.wav</code></li>
+        </ol>
+        <div class="ab-block" data-slot="ab-player">
+          <p class="ab-caption">Raw House Band renders, loudness matched; not the game's mastered mix.</p>
+          <div class="ab-pair">
+            <div>
+              <p class="ab-label">Sampled TR-707 kit (Samples From Mars, from Ray's own copy)</p>
+              <div id="player-ab-sampled" class="slot slot-ab" aria-label="Sampled TR-707 kit render"></div>
+            </div>
+            <div>
+              <p class="ab-label">Built-in synth kit (<code>--kit-map tr707=tr808</code>)</p>
+              <div id="player-ab-synth" class="slot slot-ab" aria-label="Synth kit-map render"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="examples" class="section">
+      <div class="wrap">
+        <h2>More examples</h2>
+        <p class="lede">
+          Extra tracks from Ray's Appendix N pieces (D5).
+        </p>
+        <div class="example-card" id="example-road-out">
+          <p class="example-desc">Appendix N &ldquo;The Road Out&rdquo;: House Band MS-DOS FM score, synth only.</p>
+          <div id="player-example-road-out" class="slot slot-player" aria-label="The Road Out"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <p class="lede">
+          A score is authored data. The renderer is deterministic within a pinned toolchain and writes
+          a WAV plus a custody manifest.
+        </p>
+        <pre class="score-excerpt" aria-label="Score excerpt placeholder"><code>{
+  "tempo": 96,
+  "seed": 42,
+  "kit": "tr707",
+  "tracks": [
+    { "name": "kick", "steps": [1, 0, 0, 0, 1, 0, 0, 0] },
+    { "name": "snare", "steps": [0, 0, 1, 0, 0, 0, 1, 0] }
+  ]
+}</code></pre>
+        <p class="manifest-line">same score, same seed, same toolchain, same bytes</p>
+      </div>
+    </section>
+
+    <section id="start" class="section">
+      <div class="wrap">
+        <h2>Get started</h2>
+        <p class="lede">Node 22+. Clone, install, render a demo score.</p>
+        <pre class="commands"><code>git clone https://github.com/lerugray/house-band.git
+cd house-band
+npm ci
+node bin/house-band.mjs render examples/demo-spec.json -o demo.wav</code></pre>
+        <p>
+          <a href="https://github.com/lerugray/house-band">Open the GitHub repo</a>
+          for the README sections on render, samples, and co-write.
+        </p>
+      </div>
+    </section>
+
+    <section id="footer" class="section footer" aria-label="Footer">
+      <div class="wrap">
+        <p>
+          Code MIT. Ray's three sample packs and the example scores CC BY 4.0.
+          Darkness on the Edge of Town and Appendix N soundtrack audio: all rights reserved,
+          streamed on the page only.
+        </p>
+        <p>Credits: Music by Ray Weiss and House Band.</p>
+        <p>No samples from commercial libraries are distributed here.</p>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

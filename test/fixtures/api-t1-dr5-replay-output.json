@@ -1,0 +1,21 @@
+{
+  "kitVersion": {
+    "semver": "1.12.0",
+    "sha": "ccc872103cf79c2163a615ae30bedfec82dc1f4248a2d7038d935805b45e482d"
+  },
+  "toolchain": {
+    "node": "v25.9.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "nodeWebAudioApi": "2.2.0"
+  },
+  "scoreArtifactSha256": "ea5b9f149f866591bf9b9229c07361366c92d2ca9029b308492608cd9423ced3",
+  "mixSha256": "a3ff8f8190c4d33a2c5dd3256d56119a190ff819d60d59a733ec561b6f3b20e8",
+  "stemSha256": {
+    "stem-kick.wav": "c25633e06fecec3065fc9bf97d40287a1f07d576a37f702bc727e90d566f09aa",
+    "stem-snare.wav": "e54808ffcd7292df556d1b89bdd624fc003345e4d65f1ddd8d110fa613e9700b",
+    "stem-hat.wav": "0ffb1dceffc31a747b0a20fdae7267ae154ead65ca8fb6837c14d198642cbab3"
+  },
+  "wavBytes": 432228,
+  "_note": "New kit 1.10 regression: bounded final scheduling removes post-score drum starts. Historical fixture retained separately. Same Node v25.9.0 darwin arm64 engine 2.2.0; no cross-platform refresh. Kit 1.11.0 (Timbre Range): identity refresh only - the score JSON names the new kit, so scoreArtifactSha256 moves; mixSha256, stemSha256 and wavBytes are unchanged (neutral path byte-identical). Kit 1.12.0 (bright voice, s462): identity refresh only - kick/snare/hat are not bright voices, so mixSha256, stemSha256 and wavBytes are unchanged; scoreArtifactSha256 recomputed from the same deterministic API score (relabelled to 1.11.0 it reproduces the previous cac00f2e... exactly)."
+}

@@ -1,0 +1,983 @@
+{
+  "generated": "2026-09-04T14:47:49.021Z",
+  "percentileMarginDb": 1.5,
+  "shareMarginDb": 1,
+  "derivedCaps": {
+    "voiceLocalProminenceP995Db": 5.7,
+    "voiceLocalProminenceMaxDb": 6.3,
+    "voiceNoteSpreadDb": 8.3,
+    "percussionPresenceShareDb": -9.2,
+    "percussionLocalProminenceP995Db": -2.8,
+    "percussionNoteSpreadDb": 8.3
+  },
+  "libraryCaps": {
+    "voiceLocalProminenceP995Db": 5.7,
+    "voiceLocalProminenceMaxDb": 6.3,
+    "voiceNoteSpreadDb": 8.3,
+    "percussionPresenceShareDb": -9.2,
+    "percussionLocalProminenceP995Db": -2.8,
+    "percussionNoteSpreadDb": 8.3
+  },
+  "acceptedAllGreen": true,
+  "ruledAgainstRed": "MM round 2 (ruled NOT YET) Ember",
+  "ruledAgainst": [
+    {
+      "label": "MM round 2 (ruled NOT YET)",
+      "name": "Ember",
+      "role": "melodic",
+      "available": true,
+      "verdict": "RED",
+      "checks": [
+        {
+          "metric": "localProminenceP995Db",
+          "value": 5.65,
+          "cap": 5.7,
+          "ok": true,
+          "note": "this voice over the music around it, 99.5th percentile - THE SPIKE"
+        },
+        {
+          "metric": "localProminenceMaxDb",
+          "value": 7.04,
+          "cap": 6.3,
+          "ok": false,
+          "note": "this voice over the music around it, worst single window - THE SPIKE"
+        },
+        {
+          "metric": "noteSpreadDb",
+          "value": 4.18,
+          "cap": 8.3,
+          "ok": true,
+          "note": "the loudest note of this voice over its median note"
+        }
+      ],
+      "noteSpreadDb": 4.18,
+      "noteSpreadP995Db": 3.99,
+      "notes": 94,
+      "loudestNoteSeconds": 288.1,
+      "selfOutlierDb": 18.88,
+      "loudestOwnSeconds": 288.1,
+      "localProminenceP995Db": 5.65,
+      "localProminenceP99Db": 5.36,
+      "localProminenceMaxDb": 7.04,
+      "localProminenceMedianDb": -14.11,
+      "loudestProminenceSeconds": 556.82,
+      "presenceShareDb": -7.47,
+      "melodyShareDb": -11.51,
+      "inBandMeanOverRestDb": -11.21,
+      "soundingWindows": 812,
+      "windows": 4640,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "sampleRate": 22050,
+      "seconds": 580.12
+    },
+    {
+      "label": "MM round 2 (ruled NOT YET)",
+      "name": "Tide",
+      "role": "melodic",
+      "available": true,
+      "verdict": "GREEN",
+      "checks": [
+        {
+          "metric": "localProminenceP995Db",
+          "value": -0.75,
+          "cap": 5.7,
+          "ok": true,
+          "note": "this voice over the music around it, 99.5th percentile - THE SPIKE"
+        },
+        {
+          "metric": "localProminenceMaxDb",
+          "value": 1.38,
+          "cap": 6.3,
+          "ok": true,
+          "note": "this voice over the music around it, worst single window - THE SPIKE"
+        },
+        {
+          "metric": "noteSpreadDb",
+          "value": 3.47,
+          "cap": 8.3,
+          "ok": true,
+          "note": "the loudest note of this voice over its median note"
+        }
+      ],
+      "noteSpreadDb": 3.47,
+      "noteSpreadP995Db": 3.11,
+      "notes": 394,
+      "loudestNoteSeconds": 86.74,
+      "selfOutlierDb": 3.86,
+      "loudestOwnSeconds": 86.74,
+      "localProminenceP995Db": -0.75,
+      "localProminenceP99Db": -1.21,
+      "localProminenceMaxDb": 1.38,
+      "localProminenceMedianDb": -5.81,
+      "loudestProminenceSeconds": 559.57,
+      "presenceShareDb": -9.67,
+      "melodyShareDb": -7.26,
+      "inBandMeanOverRestDb": -6.36,
+      "soundingWindows": 2875,
+      "windows": 4640,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "sampleRate": 22050,
+      "seconds": 580.12
+    },
+    {
+      "label": "MM round 2 (ruled NOT YET)",
+      "name": "Veil",
+      "role": "melodic",
+      "available": true,
+      "verdict": "GREEN",
+      "checks": [
+        {
+          "metric": "localProminenceP995Db",
+          "value": 1,
+          "cap": 5.7,
+          "ok": true,
+          "note": "this voice over the music around it, 99.5th percentile - THE SPIKE"
+        },
+        {
+          "metric": "localProminenceMaxDb",
+          "value": 1.29,
+          "cap": 6.3,
+          "ok": true,
+          "note": "this voice over the music around it, worst single window - THE SPIKE"
+        },
+        {
+          "metric": "noteSpreadDb",
+          "value": 4.02,
+          "cap": 8.3,
+          "ok": true,
+          "note": "the loudest note of this voice over its median note"
+        }
+      ],
+      "noteSpreadDb": 4.02,
+      "noteSpreadP995Db": 3.62,
+      "notes": 34,
+      "loudestNoteSeconds": 144.11,
+      "selfOutlierDb": 5.8,
+      "loudestOwnSeconds": 144.11,
+      "localProminenceP995Db": 1,
+      "localProminenceP99Db": -0.47,
+      "localProminenceMaxDb": 1.29,
+      "localProminenceMedianDb": -6.44,
+      "loudestProminenceSeconds": 456.08,
+      "presenceShareDb": -36.53,
+      "melodyShareDb": -21.8,
+      "inBandMeanOverRestDb": -21.77,
+      "soundingWindows": 103,
+      "windows": 4640,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "sampleRate": 22050,
+      "seconds": 580.12
+    },
+    {
+      "label": "MM round 2 (ruled NOT YET)",
+      "name": "Pulse",
+      "role": "percussion",
+      "available": true,
+      "verdict": "RED",
+      "checks": [
+        {
+          "metric": "presenceShareDb",
+          "value": -8.52,
+          "cap": -9.2,
+          "ok": false,
+          "note": "share of 1.5-8 kHz energy - who owns the band the ear hears - THE HAT"
+        },
+        {
+          "metric": "localProminenceP995Db",
+          "value": -13.6,
+          "cap": -2.8,
+          "ok": true,
+          "note": "the percussion over the music around it, 99.5th percentile"
+        },
+        {
+          "metric": "noteSpreadDb",
+          "value": 3.43,
+          "cap": 8.3,
+          "ok": true,
+          "note": "the loudest strike over the median strike"
+        }
+      ],
+      "noteSpreadDb": 3.43,
+      "noteSpreadP995Db": 3.43,
+      "notes": 114,
+      "loudestNoteSeconds": 24,
+      "selfOutlierDb": 5,
+      "loudestOwnSeconds": 24,
+      "localProminenceP995Db": -13.6,
+      "localProminenceP99Db": -14.63,
+      "localProminenceMaxDb": -11.47,
+      "localProminenceMedianDb": -22,
+      "loudestProminenceSeconds": 571.2,
+      "presenceShareDb": -8.52,
+      "melodyShareDb": -31.64,
+      "inBandMeanOverRestDb": -31.64,
+      "soundingWindows": 438,
+      "windows": 4640,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "sampleRate": 22050,
+      "seconds": 580.12
+    }
+  ],
+  "accepted": [
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level1",
+      "role": "melodic",
+      "subject": "lead",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level1-toybox-setup-ty-v6-20260902.raw.wav",
+          "sha256": "eb0b424d8a4732d45bfbecc979835d93ce0f56aefb7929209b1b6f324b5da015"
+        },
+        "leadMuted": {
+          "file": "level1-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "33e2c5f4a8928fd315577646aec36452ac708a94996de6256c31928c2bb5a6bf"
+        },
+        "chordsMuted": {
+          "file": "level1-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "21ca21731a6a71f963b291b82d8b9f34286b9012e00f5bdbfe9d5b1dcbe17fed"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.6,
+      "noteSpreadP995Db": 5.45,
+      "notes": 128,
+      "loudestNoteSeconds": 45.25,
+      "selfOutlierDb": 7.34,
+      "loudestOwnSeconds": 52,
+      "localProminenceP995Db": 3.67,
+      "localProminenceP99Db": 3.47,
+      "localProminenceMaxDb": 4.7,
+      "localProminenceMedianDb": -3.4,
+      "loudestProminenceSeconds": 3.5,
+      "presenceShareDb": -15.36,
+      "melodyShareDb": -2.58,
+      "inBandMeanOverRestDb": 0.9,
+      "soundingWindows": 810,
+      "windows": 857,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 107.35
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level1",
+      "role": "melodic",
+      "subject": "chords",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level1-toybox-setup-ty-v6-20260902.raw.wav",
+          "sha256": "eb0b424d8a4732d45bfbecc979835d93ce0f56aefb7929209b1b6f324b5da015"
+        },
+        "leadMuted": {
+          "file": "level1-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "33e2c5f4a8928fd315577646aec36452ac708a94996de6256c31928c2bb5a6bf"
+        },
+        "chordsMuted": {
+          "file": "level1-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "21ca21731a6a71f963b291b82d8b9f34286b9012e00f5bdbfe9d5b1dcbe17fed"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 2.21,
+      "noteSpreadP995Db": 1.88,
+      "notes": 117,
+      "loudestNoteSeconds": 72.01,
+      "selfOutlierDb": 3.84,
+      "loudestOwnSeconds": 27.25,
+      "localProminenceP995Db": 0.94,
+      "localProminenceP99Db": 0.8,
+      "localProminenceMaxDb": 2.63,
+      "localProminenceMedianDb": -4.24,
+      "loudestProminenceSeconds": 27.25,
+      "presenceShareDb": -0.47,
+      "melodyShareDb": -4.48,
+      "inBandMeanOverRestDb": -2.55,
+      "soundingWindows": 760,
+      "windows": 857,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 107.35
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level1",
+      "role": "percussion",
+      "subject": "percussion",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level1-toybox-setup-ty-v6-20260902.raw.wav",
+          "sha256": "eb0b424d8a4732d45bfbecc979835d93ce0f56aefb7929209b1b6f324b5da015"
+        },
+        "leadMuted": {
+          "file": "level1-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "33e2c5f4a8928fd315577646aec36452ac708a94996de6256c31928c2bb5a6bf"
+        },
+        "chordsMuted": {
+          "file": "level1-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "21ca21731a6a71f963b291b82d8b9f34286b9012e00f5bdbfe9d5b1dcbe17fed"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.66,
+      "noteSpreadP995Db": 5.63,
+      "notes": 116,
+      "loudestNoteSeconds": 66.13,
+      "selfOutlierDb": 7.28,
+      "loudestOwnSeconds": 65.88,
+      "localProminenceP995Db": -4.49,
+      "localProminenceP99Db": -4.9,
+      "localProminenceMaxDb": -3.89,
+      "localProminenceMedianDb": -10.9,
+      "loudestProminenceSeconds": 42,
+      "presenceShareDb": -11.37,
+      "melodyShareDb": -10.45,
+      "inBandMeanOverRestDb": -10.03,
+      "soundingWindows": 782,
+      "windows": 857,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 107.35
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level2",
+      "role": "melodic",
+      "subject": "lead",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level2-ball-in-play-ty-v6-20260902.raw.wav",
+          "sha256": "215997788660deb9899f220b5984ec2b394fccb732509ca18f5828c298d678aa"
+        },
+        "leadMuted": {
+          "file": "level2-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "9d912c6abf60d75651fbd7dee1a93417a3730de6eecb0de4e002a4e197bd61e5"
+        },
+        "chordsMuted": {
+          "file": "level2-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "a93197b083312fe233bf90a8cbb41e6e28d935c9ce76cc7dab637600532cb30c"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 4.98,
+      "noteSpreadP995Db": 4.48,
+      "notes": 111,
+      "loudestNoteSeconds": 39.88,
+      "selfOutlierDb": 6.49,
+      "loudestOwnSeconds": 37.38,
+      "localProminenceP995Db": 4.22,
+      "localProminenceP99Db": 3.45,
+      "localProminenceMaxDb": 4.75,
+      "localProminenceMedianDb": -2.48,
+      "loudestProminenceSeconds": 3.75,
+      "presenceShareDb": -14.31,
+      "melodyShareDb": -2.01,
+      "inBandMeanOverRestDb": 2.3,
+      "soundingWindows": 738,
+      "windows": 790,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 99
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level2",
+      "role": "melodic",
+      "subject": "chords",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level2-ball-in-play-ty-v6-20260902.raw.wav",
+          "sha256": "215997788660deb9899f220b5984ec2b394fccb732509ca18f5828c298d678aa"
+        },
+        "leadMuted": {
+          "file": "level2-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "9d912c6abf60d75651fbd7dee1a93417a3730de6eecb0de4e002a4e197bd61e5"
+        },
+        "chordsMuted": {
+          "file": "level2-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "a93197b083312fe233bf90a8cbb41e6e28d935c9ce76cc7dab637600532cb30c"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 2.78,
+      "noteSpreadP995Db": 2.5,
+      "notes": 112,
+      "loudestNoteSeconds": 88.63,
+      "selfOutlierDb": 3.45,
+      "loudestOwnSeconds": 88.63,
+      "localProminenceP995Db": -1.25,
+      "localProminenceP99Db": -1.68,
+      "localProminenceMaxDb": -0.91,
+      "localProminenceMedianDb": -5.46,
+      "loudestProminenceSeconds": 63.51,
+      "presenceShareDb": -0.58,
+      "melodyShareDb": -5.6,
+      "inBandMeanOverRestDb": -4.18,
+      "soundingWindows": 727,
+      "windows": 790,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 99
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level2",
+      "role": "percussion",
+      "subject": "percussion",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level2-ball-in-play-ty-v6-20260902.raw.wav",
+          "sha256": "215997788660deb9899f220b5984ec2b394fccb732509ca18f5828c298d678aa"
+        },
+        "leadMuted": {
+          "file": "level2-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "9d912c6abf60d75651fbd7dee1a93417a3730de6eecb0de4e002a4e197bd61e5"
+        },
+        "chordsMuted": {
+          "file": "level2-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "a93197b083312fe233bf90a8cbb41e6e28d935c9ce76cc7dab637600532cb30c"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.34,
+      "noteSpreadP995Db": 5.04,
+      "notes": 121,
+      "loudestNoteSeconds": 39.38,
+      "selfOutlierDb": 6.92,
+      "loudestOwnSeconds": 39.38,
+      "localProminenceP995Db": -4.34,
+      "localProminenceP99Db": -4.62,
+      "localProminenceMaxDb": -4.09,
+      "localProminenceMedianDb": -11.28,
+      "loudestProminenceSeconds": 70.63,
+      "presenceShareDb": -10.56,
+      "melodyShareDb": -10.33,
+      "inBandMeanOverRestDb": -9.9,
+      "soundingWindows": 764,
+      "windows": 790,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 99
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level3",
+      "role": "melodic",
+      "subject": "lead",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level3-multiball-chaos-ty-v6-20260902.raw.wav",
+          "sha256": "30cec68edebba36aaec8c402f42f20ce992daa6c4fdaa4dceb289f811ced3e7a"
+        },
+        "leadMuted": {
+          "file": "level3-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "5cfbcedc1f3177942edabca8d4ae73ed64ecb4aff290cd70efa58cd5739b136b"
+        },
+        "chordsMuted": {
+          "file": "level3-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "818fab8d856fbb43da8059c2cddcc705842582fcf80a6f1d2868d091ca0344e9"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 4.11,
+      "noteSpreadP995Db": 3.95,
+      "notes": 93,
+      "loudestNoteSeconds": 61.13,
+      "selfOutlierDb": 4.23,
+      "loudestOwnSeconds": 61.13,
+      "localProminenceP995Db": 2.93,
+      "localProminenceP99Db": 1.77,
+      "localProminenceMaxDb": 3.67,
+      "localProminenceMedianDb": -2.35,
+      "loudestProminenceSeconds": 46.13,
+      "presenceShareDb": -12.48,
+      "melodyShareDb": -1.91,
+      "inBandMeanOverRestDb": 2.49,
+      "soundingWindows": 652,
+      "windows": 686,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 85.96
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level3",
+      "role": "melodic",
+      "subject": "chords",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level3-multiball-chaos-ty-v6-20260902.raw.wav",
+          "sha256": "30cec68edebba36aaec8c402f42f20ce992daa6c4fdaa4dceb289f811ced3e7a"
+        },
+        "leadMuted": {
+          "file": "level3-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "5cfbcedc1f3177942edabca8d4ae73ed64ecb4aff290cd70efa58cd5739b136b"
+        },
+        "chordsMuted": {
+          "file": "level3-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "818fab8d856fbb43da8059c2cddcc705842582fcf80a6f1d2868d091ca0344e9"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 2.33,
+      "noteSpreadP995Db": 2.2,
+      "notes": 100,
+      "loudestNoteSeconds": 67.26,
+      "selfOutlierDb": 3.05,
+      "loudestOwnSeconds": 67.26,
+      "localProminenceP995Db": -0.67,
+      "localProminenceP99Db": -0.91,
+      "localProminenceMaxDb": 0.59,
+      "localProminenceMedianDb": -5.08,
+      "loudestProminenceSeconds": 56.88,
+      "presenceShareDb": -0.55,
+      "melodyShareDb": -5.12,
+      "inBandMeanOverRestDb": -3.55,
+      "soundingWindows": 644,
+      "windows": 686,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 85.96
+    },
+    {
+      "score": "accepted strategy score v6",
+      "operatorVerdict": "PASS (\"passes now\" 2026-09-02; \"really happy with the music\" 09-03)",
+      "level": "level3",
+      "role": "percussion",
+      "subject": "percussion",
+      "sampleRate": 44100,
+      "sources": {
+        "full": {
+          "file": "level3-multiball-chaos-ty-v6-20260902.raw.wav",
+          "sha256": "30cec68edebba36aaec8c402f42f20ce992daa6c4fdaa4dceb289f811ced3e7a"
+        },
+        "leadMuted": {
+          "file": "level3-lead-muted-ty-v6-20260902.raw.wav",
+          "sha256": "5cfbcedc1f3177942edabca8d4ae73ed64ecb4aff290cd70efa58cd5739b136b"
+        },
+        "chordsMuted": {
+          "file": "level3-chords-muted-ty-v6-20260902.raw.wav",
+          "sha256": "818fab8d856fbb43da8059c2cddcc705842582fcf80a6f1d2868d091ca0344e9"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.55,
+      "noteSpreadP995Db": 5.47,
+      "notes": 105,
+      "loudestNoteSeconds": 40.13,
+      "selfOutlierDb": 6.96,
+      "loudestOwnSeconds": 46.5,
+      "localProminenceP995Db": -4.54,
+      "localProminenceP99Db": -4.79,
+      "localProminenceMaxDb": -2.65,
+      "localProminenceMedianDb": -13.85,
+      "loudestProminenceSeconds": 46.5,
+      "presenceShareDb": -12.21,
+      "melodyShareDb": -12.82,
+      "inBandMeanOverRestDb": -12.57,
+      "soundingWindows": 665,
+      "windows": 686,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 85.96
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level1",
+      "role": "melodic",
+      "subject": "lead",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level1-toybox-setup-ty-v4r2-20260831.raw.wav",
+          "sha256": "3315383901fad6134ed6340596e7ebfa688d07fe86db1220b1d92f60fe579ed8"
+        },
+        "leadMuted": {
+          "file": "level1-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "16ead3012edfa863b72d5d0a815486edc6060edb500dc390437307ab14355229"
+        },
+        "chordsMuted": {
+          "file": "level1-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "87f737b7b1357cd2b843dcfe915ef79266da2e0e358609bce3f60e1e7cc6e476"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 6.77,
+      "noteSpreadP995Db": 5.45,
+      "notes": 129,
+      "loudestNoteSeconds": 52.12,
+      "selfOutlierDb": 7.36,
+      "loudestOwnSeconds": 52.12,
+      "localProminenceP995Db": 3.49,
+      "localProminenceP99Db": 3.09,
+      "localProminenceMaxDb": 4.47,
+      "localProminenceMedianDb": -3.82,
+      "loudestProminenceSeconds": 3.5,
+      "presenceShareDb": -16.29,
+      "melodyShareDb": -2.93,
+      "inBandMeanOverRestDb": 0.16,
+      "soundingWindows": 811,
+      "windows": 857,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 107.35
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level1",
+      "role": "melodic",
+      "subject": "chords",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level1-toybox-setup-ty-v4r2-20260831.raw.wav",
+          "sha256": "3315383901fad6134ed6340596e7ebfa688d07fe86db1220b1d92f60fe579ed8"
+        },
+        "leadMuted": {
+          "file": "level1-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "16ead3012edfa863b72d5d0a815486edc6060edb500dc390437307ab14355229"
+        },
+        "chordsMuted": {
+          "file": "level1-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "87f737b7b1357cd2b843dcfe915ef79266da2e0e358609bce3f60e1e7cc6e476"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 2.31,
+      "noteSpreadP995Db": 2.28,
+      "notes": 117,
+      "loudestNoteSeconds": 42.87,
+      "selfOutlierDb": 3.93,
+      "loudestOwnSeconds": 27.25,
+      "localProminenceP995Db": 1.37,
+      "localProminenceP99Db": 1.27,
+      "localProminenceMaxDb": 2.96,
+      "localProminenceMedianDb": -3.61,
+      "loudestProminenceSeconds": 27.25,
+      "presenceShareDb": -0.52,
+      "melodyShareDb": -3.87,
+      "inBandMeanOverRestDb": -1.55,
+      "soundingWindows": 759,
+      "windows": 857,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 107.35
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level1",
+      "role": "percussion",
+      "subject": "percussion",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level1-toybox-setup-ty-v4r2-20260831.raw.wav",
+          "sha256": "3315383901fad6134ed6340596e7ebfa688d07fe86db1220b1d92f60fe579ed8"
+        },
+        "leadMuted": {
+          "file": "level1-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "16ead3012edfa863b72d5d0a815486edc6060edb500dc390437307ab14355229"
+        },
+        "chordsMuted": {
+          "file": "level1-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "87f737b7b1357cd2b843dcfe915ef79266da2e0e358609bce3f60e1e7cc6e476"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.69,
+      "noteSpreadP995Db": 5.56,
+      "notes": 115,
+      "loudestNoteSeconds": 43.75,
+      "selfOutlierDb": 7.04,
+      "loudestOwnSeconds": 43.75,
+      "localProminenceP995Db": -5.14,
+      "localProminenceP99Db": -5.5,
+      "localProminenceMaxDb": -4.5,
+      "localProminenceMedianDb": -11.56,
+      "loudestProminenceSeconds": 42,
+      "presenceShareDb": -10.52,
+      "melodyShareDb": -11.07,
+      "inBandMeanOverRestDb": -10.71,
+      "soundingWindows": 783,
+      "windows": 857,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 107.35
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level2",
+      "role": "melodic",
+      "subject": "lead",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level2-ball-in-play-ty-v4r2-20260831.raw.wav",
+          "sha256": "d3b331ff9b98a528472d364e99cdf73856f878102d1b038d7a793fb0394ef4e9"
+        },
+        "leadMuted": {
+          "file": "level2-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "5a5ffd11a1adc5d130c7d5f027a29abeeccae14a49ec04e705ec62570384d934"
+        },
+        "chordsMuted": {
+          "file": "level2-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "808254350bbf275cc9dc2c0ec674c09f7096116c89a89dc11f8669ec06ff4094"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 4.79,
+      "noteSpreadP995Db": 4.14,
+      "notes": 109,
+      "loudestNoteSeconds": 39.87,
+      "selfOutlierDb": 6.54,
+      "loudestOwnSeconds": 43.75,
+      "localProminenceP995Db": 3.77,
+      "localProminenceP99Db": 3.12,
+      "localProminenceMaxDb": 4.28,
+      "localProminenceMedianDb": -3.04,
+      "loudestProminenceSeconds": 3.75,
+      "presenceShareDb": -15.87,
+      "melodyShareDb": -2.53,
+      "inBandMeanOverRestDb": 1,
+      "soundingWindows": 740,
+      "windows": 791,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 99
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level2",
+      "role": "melodic",
+      "subject": "chords",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level2-ball-in-play-ty-v4r2-20260831.raw.wav",
+          "sha256": "d3b331ff9b98a528472d364e99cdf73856f878102d1b038d7a793fb0394ef4e9"
+        },
+        "leadMuted": {
+          "file": "level2-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "5a5ffd11a1adc5d130c7d5f027a29abeeccae14a49ec04e705ec62570384d934"
+        },
+        "chordsMuted": {
+          "file": "level2-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "808254350bbf275cc9dc2c0ec674c09f7096116c89a89dc11f8669ec06ff4094"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 2.32,
+      "noteSpreadP995Db": 2.24,
+      "notes": 111,
+      "loudestNoteSeconds": 38.25,
+      "selfOutlierDb": 3.58,
+      "loudestOwnSeconds": 38.25,
+      "localProminenceP995Db": -0.26,
+      "localProminenceP99Db": -0.54,
+      "localProminenceMaxDb": 0.73,
+      "localProminenceMedianDb": -4.34,
+      "loudestProminenceSeconds": 2.75,
+      "presenceShareDb": -0.57,
+      "melodyShareDb": -4.48,
+      "inBandMeanOverRestDb": -2.54,
+      "soundingWindows": 725,
+      "windows": 791,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 99
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level2",
+      "role": "percussion",
+      "subject": "percussion",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level2-ball-in-play-ty-v4r2-20260831.raw.wav",
+          "sha256": "d3b331ff9b98a528472d364e99cdf73856f878102d1b038d7a793fb0394ef4e9"
+        },
+        "leadMuted": {
+          "file": "level2-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "5a5ffd11a1adc5d130c7d5f027a29abeeccae14a49ec04e705ec62570384d934"
+        },
+        "chordsMuted": {
+          "file": "level2-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "808254350bbf275cc9dc2c0ec674c09f7096116c89a89dc11f8669ec06ff4094"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.02,
+      "noteSpreadP995Db": 4.71,
+      "notes": 120,
+      "loudestNoteSeconds": 39.37,
+      "selfOutlierDb": 6.93,
+      "loudestOwnSeconds": 39.37,
+      "localProminenceP995Db": -4.72,
+      "localProminenceP99Db": -5.23,
+      "localProminenceMaxDb": -4.4,
+      "localProminenceMedianDb": -11.79,
+      "loudestProminenceSeconds": 94.24,
+      "presenceShareDb": -10.16,
+      "melodyShareDb": -10.81,
+      "inBandMeanOverRestDb": -10.42,
+      "soundingWindows": 766,
+      "windows": 791,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 99
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level3",
+      "role": "melodic",
+      "subject": "lead",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level3-multiball-chaos-ty-v4r2-20260831.raw.wav",
+          "sha256": "758103b161e183d046c527fbce2d3f394d851d2c9d742dcfa073f444035f54cf"
+        },
+        "leadMuted": {
+          "file": "level3-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "c79d3caab3ba4fffdb3021fff22e4088b39f7ca97090db39d0d96b4586658bbf"
+        },
+        "chordsMuted": {
+          "file": "level3-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "82b7c77d490b687b9a760bd1f43efc71d025abf23f50431f49fb595a1903c98c"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 4.1,
+      "noteSpreadP995Db": 4.09,
+      "notes": 93,
+      "loudestNoteSeconds": 37.25,
+      "selfOutlierDb": 4.24,
+      "loudestOwnSeconds": 61.12,
+      "localProminenceP995Db": 3.25,
+      "localProminenceP99Db": 1.45,
+      "localProminenceMaxDb": 3.39,
+      "localProminenceMedianDb": -2.73,
+      "loudestProminenceSeconds": 46.12,
+      "presenceShareDb": -13.59,
+      "melodyShareDb": -2.3,
+      "inBandMeanOverRestDb": 1.48,
+      "soundingWindows": 652,
+      "windows": 686,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 85.96
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level3",
+      "role": "melodic",
+      "subject": "chords",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level3-multiball-chaos-ty-v4r2-20260831.raw.wav",
+          "sha256": "758103b161e183d046c527fbce2d3f394d851d2c9d742dcfa073f444035f54cf"
+        },
+        "leadMuted": {
+          "file": "level3-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "c79d3caab3ba4fffdb3021fff22e4088b39f7ca97090db39d0d96b4586658bbf"
+        },
+        "chordsMuted": {
+          "file": "level3-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "82b7c77d490b687b9a760bd1f43efc71d025abf23f50431f49fb595a1903c98c"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 1.98,
+      "noteSpreadP995Db": 1.92,
+      "notes": 101,
+      "loudestNoteSeconds": 67.24,
+      "selfOutlierDb": 3.21,
+      "loudestOwnSeconds": 67.24,
+      "localProminenceP995Db": 0.07,
+      "localProminenceP99Db": -0.2,
+      "localProminenceMaxDb": 0.88,
+      "localProminenceMedianDb": -4.31,
+      "loudestProminenceSeconds": 56.87,
+      "presenceShareDb": -0.6,
+      "melodyShareDb": -4.37,
+      "inBandMeanOverRestDb": -2.42,
+      "soundingWindows": 645,
+      "windows": 686,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 85.96
+    },
+    {
+      "score": "accepted strategy score v4r2",
+      "operatorVerdict": "PASS (the v4 listen set, 2026-08-31)",
+      "level": "level3",
+      "role": "percussion",
+      "subject": "percussion",
+      "sampleRate": 22050,
+      "sources": {
+        "full": {
+          "file": "level3-multiball-chaos-ty-v4r2-20260831.raw.wav",
+          "sha256": "758103b161e183d046c527fbce2d3f394d851d2c9d742dcfa073f444035f54cf"
+        },
+        "leadMuted": {
+          "file": "level3-no-lead-ty-v4r2-20260831.raw.wav",
+          "sha256": "c79d3caab3ba4fffdb3021fff22e4088b39f7ca97090db39d0d96b4586658bbf"
+        },
+        "chordsMuted": {
+          "file": "level3-no-chords-ty-v4r2-20260831.raw.wav",
+          "sha256": "82b7c77d490b687b9a760bd1f43efc71d025abf23f50431f49fb595a1903c98c"
+        }
+      },
+      "available": true,
+      "noteSpreadDb": 5.2,
+      "noteSpreadP995Db": 4.91,
+      "notes": 108,
+      "loudestNoteSeconds": 40.12,
+      "selfOutlierDb": 6.84,
+      "loudestOwnSeconds": 46.5,
+      "localProminenceP995Db": -4.9,
+      "localProminenceP99Db": -5.13,
+      "localProminenceMaxDb": -3.02,
+      "localProminenceMedianDb": -14.14,
+      "loudestProminenceSeconds": 46.5,
+      "presenceShareDb": -10.79,
+      "melodyShareDb": -13.11,
+      "inBandMeanOverRestDb": -12.87,
+      "soundingWindows": 665,
+      "windows": 686,
+      "windowSeconds": 0.25,
+      "contextSeconds": 3,
+      "seconds": 85.96
+    }
+  ]
+}

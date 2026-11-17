@@ -1,0 +1,24 @@
+{
+  "name": "house-band-demos",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Landing-page Stageshow demos for House Band (vendored kit under site/vendor/stageshow).",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright-core": "~1.48.2",
+    "typescript": "^5.6.3",
+    "vite": "^6.4.5"
+  }
+}

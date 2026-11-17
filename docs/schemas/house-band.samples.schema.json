@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://house-band.local/schemas/house-band.samples.schema.json",
+  "title": "house-band.samples.json",
+  "description": "Mapping config for bringing your own samples into House Band (scan/build).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "version", "id", "displayName", "source"],
+  "properties": {
+    "format": {
+      "type": "string",
+      "const": "house-band-samples"
+    },
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,47}$",
+      "description": "Slug id for the user pack (scores name it as user:<id>)."
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "path"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["folder", "sfz", "sf2"]
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Folder, .sfz, or .sf2 path. Relative paths resolve against the config file folder."
+        },
+        "preset": {
+          "description": "SF2 only: preset name (string) or index (integer). Default 0.",
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "integer", "minimum": 0 }
+          ]
+        }
+      }
+    },
+    "licence": {
+      "type": "string",
+      "default": "user-supplied; not for redistribution"
+    },
+    "fallbackKit": {
+      "type": "string",
+      "default": "tr808",
+      "description": "Built-in kit id used for unmapped drum lanes."
+    },
+    "kit": {
+      "type": "object",
+      "description": "Drum lane mappings. Keys must be DRUM_LANES. At least one of kit or patches is required.",
+      "additionalProperties": false,
+      "properties": {
+        "kick": { "$ref": "#/$defs/kickLane" },
+        "snare": { "$ref": "#/$defs/snareLane" },
+        "hat": { "$ref": "#/$defs/hatLane" },
+        "tomLow": { "$ref": "#/$defs/defaultLane" },
+        "tomMid": { "$ref": "#/$defs/defaultLane" },
+        "tomHigh": { "$ref": "#/$defs/defaultLane" },
+        "clap": { "$ref": "#/$defs/defaultLane" },
+        "rim": { "$ref": "#/$defs/defaultLane" },
+        "ride": { "$ref": "#/$defs/defaultLane" },
+        "crash": { "$ref": "#/$defs/defaultLane" },
+        "perc": { "$ref": "#/$defs/percLane" }
+      }
+    },
+    "patches": {
+      "type": "object",
+      "description": "User patches keyed by slug. Ids must not collide with built-in PATCHES. At least one of kit or patches is required.",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[a-z][a-z0-9-]{0,47}$": { "$ref": "#/$defs/patch" }
+      }
+    }
+  },
+  "anyOf": [
+    { "required": ["kit"] },
+    { "required": ["patches"] }
+  ],
+  "$defs": {
+    "wavRelativePath": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Path relative to source.path. Must end in .wav and must not contain .. segments."
+    },
+    "variantObject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file"],
+      "properties": {
+        "file": { "$ref": "#/$defs/wavRelativePath" },
+        "gain": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 4,
+          "default": 1
+        },
+        "maxSeconds": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 10,
+          "default": 2
+        }
+      }
+    },
+    "variantValue": {
+      "description": "String shorthand becomes { file, gain: 1, maxSeconds: 2 }. First listed variant for a lane is that lane's default.",
+      "oneOf": [
+        { "$ref": "#/$defs/wavRelativePath" },
+        { "$ref": "#/$defs/variantObject" }
+      ]
+    },
+    "kickLane": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "a": { "$ref": "#/$defs/variantValue" },
+        "b": { "$ref": "#/$defs/variantValue" }
+      }
+    },
+    "snareLane": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "a": { "$ref": "#/$defs/variantValue" },
+        "b": { "$ref": "#/$defs/variantValue" },
+        "flam": { "$ref": "#/$defs/variantValue" }
+      }
+    },
+    "hatLane": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "closed": { "$ref": "#/$defs/variantValue" },
+        "open": { "$ref": "#/$defs/variantValue" }
+      }
+    },
+    "defaultLane": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default"],
+      "properties": {
+        "default": { "$ref": "#/$defs/variantValue" }
+      }
+    },
+    "percLane": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "description": "Keys must be one of the 32 perc variant names used by built-in kits.",
+      "properties": {
+        "anvil": { "$ref": "#/$defs/variantValue" },
+        "bell": { "$ref": "#/$defs/variantValue" },
+        "blip": { "$ref": "#/$defs/variantValue" },
+        "brush": { "$ref": "#/$defs/variantValue" },
+        "cabasa": { "$ref": "#/$defs/variantValue" },
+        "castanets": { "$ref": "#/$defs/variantValue" },
+        "chop": { "$ref": "#/$defs/variantValue" },
+        "clang": { "$ref": "#/$defs/variantValue" },
+        "clave": { "$ref": "#/$defs/variantValue" },
+        "conga": { "$ref": "#/$defs/variantValue" },
+        "conga-high": { "$ref": "#/$defs/variantValue" },
+        "conga-low": { "$ref": "#/$defs/variantValue" },
+        "cowbell": { "$ref": "#/$defs/variantValue" },
+        "fm-tom": { "$ref": "#/$defs/variantValue" },
+        "guiro": { "$ref": "#/$defs/variantValue" },
+        "hiss": { "$ref": "#/$defs/variantValue" },
+        "laser": { "$ref": "#/$defs/variantValue" },
+        "maraca": { "$ref": "#/$defs/variantValue" },
+        "perc-a": { "$ref": "#/$defs/variantValue" },
+        "perc-b": { "$ref": "#/$defs/variantValue" },
+        "shaker": { "$ref": "#/$defs/variantValue" },
+        "simmons-tom": { "$ref": "#/$defs/variantValue" },
+        "snap": { "$ref": "#/$defs/variantValue" },
+        "sweep": { "$ref": "#/$defs/variantValue" },
+        "tamb": { "$ref": "#/$defs/variantValue" },
+        "tambourine": { "$ref": "#/$defs/variantValue" },
+        "thump": { "$ref": "#/$defs/variantValue" },
+        "tick": { "$ref": "#/$defs/variantValue" },
+        "triangle": { "$ref": "#/$defs/variantValue" },
+        "twang": { "$ref": "#/$defs/variantValue" },
+        "woodblock": { "$ref": "#/$defs/variantValue" },
+        "zap": { "$ref": "#/$defs/variantValue" }
+      }
+    },
+    "patch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class", "zones"],
+      "properties": {
+        "class": {
+          "type": "string",
+          "enum": ["pad", "bass", "lead", "pluck", "bell"]
+        },
+        "files": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 24,
+          "items": { "$ref": "#/$defs/wavRelativePath" },
+          "description": "Required when zones is \"auto\". Ignored when zones is an explicit array."
+        },
+        "zones": {
+          "oneOf": [
+            { "type": "string", "const": "auto" },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/zone" }
+            }
+          ]
+        },
+        "gain": {
+          "type": "number",
+          "default": 1
+        },
+        "release": {
+          "type": "number",
+          "default": 0.08,
+          "description": "Release time in seconds."
+        }
+      }
+    },
+    "zone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "rootNote", "lo", "hi"],
+      "properties": {
+        "file": { "$ref": "#/$defs/wavRelativePath" },
+        "rootNote": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "lo": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "hi": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        }
+      }
+    }
+  }
+}

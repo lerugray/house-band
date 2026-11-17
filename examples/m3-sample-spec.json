@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.1.0",
+  "kitVersion": {
+    "semver": "1.1.0",
+    "sha": "b2709519f2faf8481de28e0a5e9912cd2e80ae9e290fdfca88915c0377aaf773"
+  },
+  "seed": 606,
+  "tempo": 120,
+  "sampleRate": 44100,
+  "gain": 0.8,
+  "label": "M3 tranche-1 custody proof: sample-backed TR-606 kick, snare, and closed hat.",
+  "register": {
+    "name": "kit-demo",
+    "briefRef": "docs/REGISTER-KIT-DEMO.md"
+  },
+  "samplePack": {
+    "packId": "hb-synth-oneshots",
+    "formatVersion": "1.1.0",
+    "manifestSha256": "6de49d9c853ea1f95546debfeff95f5f00236c31d04b705289ebb491b6644d86",
+    "contentSha256": "cd4eb71948d0bfe9e725bdbacf72b501e9b2ebb5731809d27a49e967a907b666"
+  },
+  "sampleVoices": {
+    "kick": {
+      "kind": "one-shot",
+      "assetId": "kick",
+      "pcmSha256": "e45106f0f8571c83a96e72d856d7598f069f21b82a7497074dc562efd9ebe7ee",
+      "gain": 0.9
+    },
+    "snare": {
+      "kind": "one-shot",
+      "assetId": "snare",
+      "pcmSha256": "a2420fe7c375aa4a70c50196a7190e4a72e6b6c627a33ecaddc6aea9cc864b24",
+      "gain": 0.75
+    },
+    "hat": {
+      "kind": "one-shot",
+      "assetId": "hat-closed",
+      "pcmSha256": "b80281f2dafe89adde1305f7af44bbedea35f35ca0fd760e91f7484875a3b273",
+      "gain": 0.55
+    }
+  },
+  "tracks": {
+    "sampleProof": {
+      "bpm": 120,
+      "len": 16,
+      "vol": 1,
+      "steps": [
+        { "i": [0, 8], "voice": "kick" },
+        { "i": [4, 12], "voice": "snare" },
+        { "every": 2, "voice": "hat", "opts": { "vol": 0.8 } }
+      ]
+    }
+  },
+  "sections": [
+    { "track": "sampleProof", "bars": 1, "fadeIn": 0 }
+  ]
+}

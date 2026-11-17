@@ -1,0 +1,8 @@
+node_modules
+dist/
+.bot-worktree/
+.house-band/
+.house-band-api/
+.house-band-smoke/
+runs/
+site/screens/

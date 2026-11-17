@@ -1,0 +1,5392 @@
+{
+ "schemaVersion": "1.2.0",
+ "kitVersion": {
+  "semver": "1.11.0",
+  "sha": "e84cca174a353f8ae5519768de717667384eb5310fe2cad7fd270100ae5ca21a"
+ },
+ "seed": 41,
+ "tempo": 99.512195,
+ "sampleRate": 44100,
+ "gain": 0.5,
+ "label": "TRS LS01 07 Forty-One Seconds: diegetic insurer hold music, exactly 41.0 s loop",
+ "register": {
+  "name": "trs-ls01-heartland",
+  "briefRef": "docs/score/REGISTER-TRS-LS01.md"
+ },
+ "kit": "tr707",
+ "patches": {
+  "pad": "glass-fm",
+  "bass": "sub-sine",
+  "lead": "pwm-square",
+  "pluck": "snes-rhodes",
+  "bell": "music-box"
+ },
+ "palette": {
+  "name": "trs-hold-music",
+  "differsFrom": "vs every other TRS cue (organ, karplus piano, rock kits): TR-707 machine, SNES Rhodes, glass FM pad, sub-sine, music box; the only cue with no organ or piano"
+ },
+ "performance": {
+  "humanize": {
+   "timingMs": [
+    -2,
+    2
+   ],
+   "velocity": [
+    -0.03,
+    0.03
+   ]
+  },
+  "releaseTail": 0.4
+ },
+ "fx": {
+  "reverb": {
+   "preset": "room",
+   "wet": 0.2
+  },
+  "chorus": "subtle"
+ },
+ "retire": {
+  "mode": "tail",
+  "hold": 1.5
+ },
+ "mix": {
+  "voices": {
+   "pluck": {
+    "pan": -0.2
+   },
+   "pad": {
+    "width": 0.3
+   },
+   "bell": {
+    "pan": 0.25
+   }
+  }
+ },
+ "tracks": {
+  "phrase-a": {
+   "len": 128,
+   "steps": [
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "G4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 0,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 489.906
+    },
+    {
+     "i": 0,
+     "voice": "bell",
+     "note": "G6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 0,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 0,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 2,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 4,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 4,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 4,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "bass",
+     "note": "D3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 8,
+     "voice": "lead",
+     "dur": 0.769,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 8,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 8,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 10,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 12,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 12,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "lead",
+     "dur": 0.256,
+     "opts": {
+      "vol": 0.041,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 734.029
+    },
+    {
+     "i": 14,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pad",
+     "note": "E4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 16,
+     "voice": "bass",
+     "note": "E2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 16,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 16,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 16,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 18,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 20,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 20,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "bass",
+     "note": "B2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 24,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 24,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 24,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 26,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 28,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 28,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 30,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pad",
+     "note": "E4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 32,
+     "voice": "bass",
+     "note": "A2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 32,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 519.037
+    },
+    {
+     "i": 32,
+     "voice": "bell",
+     "note": "A6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 32,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 32,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 34,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 36,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 36,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 36,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "bass",
+     "note": "E3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 40,
+     "voice": "lead",
+     "dur": 0.769,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 872.912
+    },
+    {
+     "i": 40,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 40,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 42,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 44,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 44,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "lead",
+     "dur": 0.256,
+     "opts": {
+      "vol": 0.041,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 46,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pad",
+     "note": "A3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 48,
+     "voice": "bass",
+     "note": "D2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 48,
+     "voice": "lead",
+     "dur": 1.537,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 734.029
+    },
+    {
+     "i": 48,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 48,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 50,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 52,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 52,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "bass",
+     "note": "A2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 56,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 56,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 58,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 60,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 60,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 62,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pad",
+     "note": "B3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 64,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 64,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 489.906
+    },
+    {
+     "i": 64,
+     "voice": "bell",
+     "note": "G6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 64,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 64,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 66,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 68,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 68,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 68,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "bass",
+     "note": "D3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 72,
+     "voice": "lead",
+     "dur": 0.769,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 72,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 72,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 74,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 76,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 76,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "lead",
+     "dur": 0.256,
+     "opts": {
+      "vol": 0.041,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 872.912
+    },
+    {
+     "i": 78,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pad",
+     "note": "B3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 80,
+     "voice": "bass",
+     "note": "E2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 80,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 979.811
+    },
+    {
+     "i": 80,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 80,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 82,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 84,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 84,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "bass",
+     "note": "B2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 88,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 88,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 88,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 90,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 92,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 92,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 94,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pad",
+     "note": "B3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 96,
+     "voice": "bass",
+     "note": "C2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 96,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 96,
+     "voice": "bell",
+     "note": "F#6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 96,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 96,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 98,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 100,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 100,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 100,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 104,
+     "voice": "lead",
+     "dur": 0.769,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 979.811
+    },
+    {
+     "i": 104,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 104,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 106,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 108,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 108,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "lead",
+     "dur": 0.256,
+     "opts": {
+      "vol": 0.041,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 872.912
+    },
+    {
+     "i": 110,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pad",
+     "note": "A3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 112,
+     "voice": "bass",
+     "note": "D2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 112,
+     "voice": "lead",
+     "dur": 1.537,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 872.912
+    },
+    {
+     "i": 112,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 112,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 114,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 116,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 116,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "bass",
+     "note": "A2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 120,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 120,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 122,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 124,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 124,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 126,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    }
+   ]
+  },
+  "phrase-b": {
+   "len": 144,
+   "steps": [
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "A3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "pad",
+     "note": "F#4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 0,
+     "voice": "bass",
+     "note": "B2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 0,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 0,
+     "voice": "bell",
+     "note": "F#6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 0,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 0,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 2,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 4,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 734.029
+    },
+    {
+     "i": 4,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 4,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 6,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 8,
+     "voice": "bass",
+     "note": "F#3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 8,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 872.912
+    },
+    {
+     "i": 8,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 8,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 10,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 12,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 12,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 14,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 16,
+     "voice": "pad",
+     "note": "E4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 16,
+     "voice": "bass",
+     "note": "E2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 16,
+     "voice": "lead",
+     "dur": 0.769,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 16,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 16,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 18,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 20,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 20,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 22,
+     "voice": "lead",
+     "dur": 0.256,
+     "opts": {
+      "vol": 0.041,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 734.029
+    },
+    {
+     "i": 22,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 24,
+     "voice": "bass",
+     "note": "B2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 24,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 24,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 24,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 26,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 28,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 28,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "pluck",
+     "note": "B4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 30,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 30,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 32,
+     "voice": "pad",
+     "note": "E4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 32,
+     "voice": "bass",
+     "note": "A2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 32,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 519.037
+    },
+    {
+     "i": 32,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 32,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 34,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 36,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 36,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 36,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 38,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 40,
+     "voice": "bass",
+     "note": "E3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 40,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 40,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 40,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 42,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 44,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 44,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 44,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 46,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pad",
+     "note": "A3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 48,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 48,
+     "voice": "bass",
+     "note": "D2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 48,
+     "voice": "lead",
+     "dur": 1.537,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 48,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 48,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 50,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 52,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 52,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 54,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 56,
+     "voice": "bass",
+     "note": "A2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 56,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 56,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 58,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 60,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 60,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "A3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 62,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 62,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pad",
+     "note": "B3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 64,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 64,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 64,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 489.906
+    },
+    {
+     "i": 64,
+     "voice": "bell",
+     "note": "G6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 64,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 64,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 66,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 68,
+     "voice": "lead",
+     "dur": 0.513,
+     "opts": {
+      "vol": 0.044,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 68,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 68,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 70,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 72,
+     "voice": "bass",
+     "note": "D3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 72,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 777.677
+    },
+    {
+     "i": 72,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 72,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 74,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 76,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 76,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 78,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pad",
+     "note": "B3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 80,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 80,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 80,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 734.029
+    },
+    {
+     "i": 80,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 80,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 82,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 84,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 84,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 86,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 88,
+     "voice": "bass",
+     "note": "D3",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 88,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 88,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 88,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 90,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 92,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 92,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "B3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "pluck",
+     "note": "F#4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 94,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 94,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 96,
+     "voice": "pad",
+     "note": "E4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 96,
+     "voice": "bass",
+     "note": "C2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 96,
+     "voice": "lead",
+     "dur": 0.769,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 653.945
+    },
+    {
+     "i": 96,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 96,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 98,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 100,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 100,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 102,
+     "voice": "lead",
+     "dur": 0.256,
+     "opts": {
+      "vol": 0.041,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 102,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 104,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 104,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 519.037
+    },
+    {
+     "i": 104,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 104,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 106,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 108,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 108,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "E4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "pluck",
+     "note": "G4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 110,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "Eb4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 112,
+     "voice": "pad",
+     "note": "Eb4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 112,
+     "voice": "bass",
+     "note": "C2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 112,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 617.242
+    },
+    {
+     "i": 112,
+     "voice": "bell",
+     "note": "Eb6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 112,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 112,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 114,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 116,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 116,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "Eb4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 118,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "Eb4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 120,
+     "voice": "bass",
+     "note": "G2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 120,
+     "voice": "lead",
+     "dur": 1.025,
+     "opts": {
+      "vol": 0.047,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 519.037
+    },
+    {
+     "i": 120,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 120,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 122,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 124,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 124,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "Eb4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 126,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 126,
+     "voice": "perc",
+     "opts": {
+      "vol": 0.018,
+      "variant": "tamb"
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pad",
+     "note": "G3",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pad",
+     "note": "C4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 128,
+     "voice": "pad",
+     "note": "D4",
+     "dur": 2.291,
+     "opts": {
+      "vol": 0.03
+     }
+    },
+    {
+     "i": 128,
+     "voice": "bass",
+     "note": "D2",
+     "dur": 0.965,
+     "opts": {
+      "vol": 0.09
+     }
+    },
+    {
+     "i": 128,
+     "voice": "lead",
+     "dur": 2.05,
+     "opts": {
+      "vol": 0.05,
+      "cut": 2600,
+      "chorus": 0.3,
+      "verb": 0.2
+     },
+     "freq": 582.599
+    },
+    {
+     "i": 128,
+     "voice": "bell",
+     "note": "C6",
+     "dur": 0.603,
+     "opts": {
+      "vol": 0.035
+     }
+    },
+    {
+     "i": 128,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 128,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 130,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 132,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 132,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 134,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 134,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 134,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 134,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 134,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 136,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 136,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 136,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 136,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 136,
+     "voice": "bass",
+     "note": "A2",
+     "dur": 0.844,
+     "opts": {
+      "vol": 0.07
+     }
+    },
+    {
+     "i": 136,
+     "voice": "kick",
+     "opts": {
+      "vol": 0.224
+     }
+    },
+    {
+     "i": 136,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 138,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    },
+    {
+     "i": 140,
+     "voice": "rim",
+     "opts": {
+      "vol": 0.044
+     }
+    },
+    {
+     "i": 140,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.015
+     }
+    },
+    {
+     "i": 142,
+     "voice": "pluck",
+     "note": "G3",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 142,
+     "voice": "pluck",
+     "note": "C4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 142,
+     "voice": "pluck",
+     "note": "D4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 142,
+     "voice": "pluck",
+     "note": "A4",
+     "dur": 0.241,
+     "opts": {
+      "vol": 0.036
+     }
+    },
+    {
+     "i": 142,
+     "voice": "hat",
+     "opts": {
+      "vol": 0.027
+     }
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "track": "phrase-a",
+   "bars": 8
+  },
+  {
+   "track": "phrase-b",
+   "bars": 9
+  }
+ ]
+}

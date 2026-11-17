@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "kitVersion": {
+    "semver": "1.1.0",
+    "sha": "b2709519f2faf8481de28e0a5e9912cd2e80ae9e290fdfca88915c0377aaf773"
+  },
+  "seed": 42,
+  "tempo": 96,
+  "sampleRate": 44100,
+  "gain": 0.55,
+  "label": "Kit exercise (NOT a register): short metronomic pattern for M0 headless render proof. Neutral demo only; do not treat as a musical register.",
+  "register": {
+    "name": "kit-demo",
+    "briefRef": "docs/REGISTER-KIT-DEMO.md"
+  },
+  "tracks": {
+    "pulse": {
+      "bpm": 96,
+      "len": 16,
+      "vol": 0.85,
+      "steps": [
+        { "i": 0, "voice": "kick", "opts": { "vol": 0.28 } },
+        { "i": 8, "voice": "snare", "opts": { "vol": 0.1 } },
+        { "i": [0, 4, 8, 12], "voice": "hat", "opts": { "vol": 0.035 } },
+        { "i": 0, "voice": "bass", "note": "C2", "dur": 0.35, "opts": { "vol": 0.11 } },
+        { "i": 4, "voice": "bass", "note": "G1", "dur": 0.3, "opts": { "vol": 0.1 } },
+        { "i": 8, "voice": "pluck", "note": "C4", "dur": 0.12, "opts": { "vol": 0.06 } },
+        { "i": 10, "voice": "pluck", "note": "Eb4", "dur": 0.1, "opts": { "vol": 0.05 } },
+        { "i": 12, "voice": "pluck", "note": "G4", "dur": 0.12, "opts": { "vol": 0.055 } },
+        { "i": 0, "voice": "pad", "note": "C3", "dur": 3.5, "opts": { "vol": 0.04, "verb": 0.45 } }
+      ]
+    }
+  },
+  "sections": [
+    { "track": "pulse", "bars": 6, "fadeIn": 0.05 }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "packId": "tv-kit-linndrum",
+  "displayName": "Timbre Range kit: LinnDrum",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/BD Lindrum Orig.wav",
+      "id": "kick",
+      "displayName": "LinnDrum (sampled): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.5,
+      "expectedSourceSha256": "375f90fa895cba16f00b70b24e7d8ea11582ee881c6bc7d837ff02a2a1b6c0d0"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/SD Lindrum Orig 17.wav",
+      "id": "snare",
+      "displayName": "LinnDrum (sampled): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.5,
+      "expectedSourceSha256": "5a3947c67bfafcd173fed24eda72746189828f0c7111b6f1c7e0fb30b3a19be2"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/CH Lindrum Orig Decay 06.wav",
+      "id": "hat-closed",
+      "displayName": "LinnDrum (sampled): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "expectedSourceSha256": "e5b3cc05c0f767f8084ce27c4bbb64fe9d5ebdd885e328e9997917af12a9cd16"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/OH Lindrum Orig.wav",
+      "id": "hat-open",
+      "displayName": "LinnDrum (sampled): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.95,
+      "rootNote": 60,
+      "expectedSourceSha256": "ca1a1f0e3a9612d31a2960ce62cd6763c760a8cf36b076e4ae3765945eb59046"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Tom Lindrum Orig 09.wav",
+      "id": "tom-low",
+      "displayName": "LinnDrum (sampled): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.8,
+      "rootNote": 60,
+      "expectedSourceSha256": "ba1ccc60c7ca21b4231913e6bbfd5b182cf34bbe4717a264bb2781a8c778b985"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Tom Lindrum Orig 18.wav",
+      "id": "tom-mid",
+      "displayName": "LinnDrum (sampled): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.55,
+      "rootNote": 60,
+      "expectedSourceSha256": "4deecc9a4e8a2f55ad553d45f309a915024f6e0984063db013b7ba7a66a47dfc"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Tom Lindrum Orig 22.wav",
+      "id": "tom-high",
+      "displayName": "LinnDrum (sampled): tom high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.45,
+      "rootNote": 60,
+      "expectedSourceSha256": "0448c42d0580131889ed6d5c907d923a34d1317f094ad32b278cd101da7f5470"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Clap Lindrum Orig.wav",
+      "id": "clap",
+      "displayName": "LinnDrum (sampled): clap",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "rootNote": 60,
+      "expectedSourceSha256": "23679c2030c13d1d54a32419c2e85da6cff6febb35c474740e10ccde5b1fd429"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/SS Lindrum Orig 11.wav",
+      "id": "sidestick",
+      "displayName": "LinnDrum (sampled): sidestick",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "rootNote": 60,
+      "expectedSourceSha256": "e1fb4996f2180f2361490c9f051277b24ea5b3f6e9fcc63b8243e533eaa3ed59"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Ride Lindrum Orig.wav",
+      "id": "ride",
+      "displayName": "LinnDrum (sampled): ride",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.8,
+      "rootNote": 60,
+      "expectedSourceSha256": "b99a1c421b575022defb1ba855d9a6a4e8f6f2b867b963c32e1bf689e9ba99ec"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Crash Lindrum Orig.wav",
+      "id": "crash",
+      "displayName": "LinnDrum (sampled): crash",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.8,
+      "rootNote": 60,
+      "expectedSourceSha256": "bdce115a52f1fe2eda8c66902322aee01a5eef6f4728335437875537b33cc7dd"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Tamb Lindrum Orig.wav",
+      "id": "tambourine",
+      "displayName": "LinnDrum (sampled): tambourine",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "bb1d038a9fff49706ebbe29660149be96c9e54d6accc059d2449c50b215ef273"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Cabasa Lindrum Orig.wav",
+      "id": "cabasa",
+      "displayName": "LinnDrum (sampled): cabasa",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.2,
+      "rootNote": 60,
+      "expectedSourceSha256": "7ae442d873c2b9774262f53be395261a3d59548eb8f5c3d9c15f9857ed059c75"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Cowbell Lindrum Orig.wav",
+      "id": "cowbell",
+      "displayName": "LinnDrum (sampled): cowbell",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "145d5c9a6f82787a2b6f73a5ec4d8782dbead906721d4a2f345f6110c5247227"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Conga Lindrum Orig 36 F#4.wav",
+      "id": "conga-high",
+      "displayName": "LinnDrum (sampled): conga high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "39bd3c35b65ca675bc15e037e5e81aaa308efbddee3c5b142a7811dad41553c7"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Lindrum From Mars/01. OG Clean Kit/Conga Lindrum Orig 24 F#3.wav",
+      "id": "conga-low",
+      "displayName": "LinnDrum (sampled): conga low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.45,
+      "rootNote": 60,
+      "expectedSourceSha256": "f5c285a91dd030e0f056accc971ab71f9805e9d13485d08024eecfa70e371f48"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "391ec5dbf7763e00a6bdd6b1653c48ebb5a745d464732d0f0145f4c7e3b0be04",
+    "contentSha256": "ef4927f0c79ae321d58076c576411911cf0895b8e0542d52435aa0cef776607d"
+  }
+}

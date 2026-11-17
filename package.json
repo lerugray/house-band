@@ -1,0 +1,37 @@
+{
+  "name": "house-band",
+  "version": "1.0.0",
+  "description": "Music written as code. Scores are readable JSON; a deterministic WebAudio band plays them; you can bring your own samples and your own songs.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "bin": {
+    "house-band": "bin/house-band.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "compose": "node src/compose.mjs",
+    "api": "node src/api-server.mjs",
+    "desk-server": "node src/desk-server.mjs",
+    "build-launcher": "node tools/build-launcher.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerugray/house-band.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lerugray/house-band/issues"
+  },
+  "homepage": "https://github.com/lerugray/house-band#readme",
+  "dependencies": {
+    "node-web-audio-api": "2.2.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

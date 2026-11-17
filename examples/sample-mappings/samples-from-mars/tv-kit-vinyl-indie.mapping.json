@@ -1,0 +1,181 @@
+{
+  "packId": "tv-kit-vinyl-indie",
+  "displayName": "Timbre Range kit: Vinyl indie",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/BD Knock Mid Vinyl.wav",
+      "id": "kick",
+      "displayName": "Vinyl indie (acoustic drums): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.45,
+      "expectedSourceSha256": "d33e4a0f1d6fd1f5e3ab68fcacd7ea5a2789d8b09521907ddccba0c7ff37cf64"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/BD Vari Tape Vinyl 05.wav",
+      "id": "kick-b",
+      "displayName": "Vinyl indie (acoustic drums): kick b",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.45,
+      "expectedSourceSha256": "a90d843cabfa67fd5bab7f16118273925c40aebfb58a43bdf79229ee64175561"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/SD Vari Tape Vinyl 08.wav",
+      "id": "snare",
+      "displayName": "Vinyl indie (acoustic drums): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "expectedSourceSha256": "7b91040f4ed818c5e13ab1d77b737d1c1855dd046b2fd689c3eabcb4b862ca41"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/SD Degraded Vinyl 08.wav",
+      "id": "snare-b",
+      "displayName": "Vinyl indie (acoustic drums): snare b",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "expectedSourceSha256": "c4e85daf1cf74e3750361a2217e229d879d4675d0760bcf1848300462135044d"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/CH Clean Lite Vinyl 10.wav",
+      "id": "hat-closed",
+      "displayName": "Vinyl indie (acoustic drums): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.28,
+      "expectedSourceSha256": "a5f4492795c346e676e72809a8e025913d9b6b4b28088440729382d60703c036"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/OH Clean Vinyl 14.wav",
+      "id": "hat-open",
+      "displayName": "Vinyl indie (acoustic drums): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.9,
+      "rootNote": 60,
+      "expectedSourceSha256": "43726b82d62af028954eb68fe7d71c65eb2bd4dced15482868a6fde845116101"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Tom Clean Flr Vinyl 08.wav",
+      "id": "tom-low",
+      "displayName": "Vinyl indie (acoustic drums): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.6,
+      "rootNote": 60,
+      "expectedSourceSha256": "6c109b81eed7a6526c155bd96fe623da98c5fe5c157b9c903fcd0edd6ded111c"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Tom Vari Tape Vinyl 02.wav",
+      "id": "tom-mid",
+      "displayName": "Vinyl indie (acoustic drums): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.8,
+      "rootNote": 60,
+      "expectedSourceSha256": "8f05c98999a265545d88a2c115e659a29afb5be42be18b7d4755bb4f545f496d"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Clap Clean Vinyl 05.wav",
+      "id": "clap",
+      "displayName": "Vinyl indie (acoustic drums): clap",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.2,
+      "rootNote": 60,
+      "expectedSourceSha256": "3b794da4338a97445c317651f708faaeffdeb5b9ac3f2e448c6d419c8b7bbf7a"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Rim Thick Vinyl 02.wav",
+      "id": "rim",
+      "displayName": "Vinyl indie (acoustic drums): rim",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.2,
+      "rootNote": 60,
+      "expectedSourceSha256": "eaf23c7ddfa8d061b7abbfff01841a0111f3e2e1c82bf90d3a1ba2d34c7acc44"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Ride Lite Bell Vinyl 02.wav",
+      "id": "ride",
+      "displayName": "Vinyl indie (acoustic drums): ride",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 2.4,
+      "rootNote": 60,
+      "expectedSourceSha256": "bc96b84e0cfb94a113023de773e410f36e5f50adaf5407dec67ab09601deb74e"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Shaker Clean Soft Vinyl.wav",
+      "id": "shaker",
+      "displayName": "Vinyl indie (acoustic drums): shaker",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.1,
+      "rootNote": 60,
+      "expectedSourceSha256": "8cb55f44c56024b848f4b854fdc701b6bd437d5d6e474b55b77e8292f983a5ef"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Tamb Hard Vinyl 01.wav",
+      "id": "tambourine",
+      "displayName": "Vinyl indie (acoustic drums): tambourine",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "rootNote": 60,
+      "expectedSourceSha256": "1fb7be6748fa80cf9e58371d686f1a9d80ee68d67c850a9dd71438217f79b8c0"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Vinyl Drums From Mars/01. Old Skool Indie Kit/Cowbell Lo Vinyl.wav",
+      "id": "cowbell",
+      "displayName": "Vinyl indie (acoustic drums): cowbell",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.2,
+      "rootNote": 60,
+      "expectedSourceSha256": "e83a6649c83b31facc94a16708e09d211de1bec29af785bcf003bb389e8d89e0"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "a25b5c155fcf1fab482e1998856cafa259a61c08578bf1cbf2141140ed2504a5",
+    "contentSha256": "a54f8ac1a50cacb6976812f64a420c3f82d596db03af73c4e99d644b128dafbf"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "house-band",
+  "version": "1.0.0",
+  "description": "Code-composed music as a tool: a register-neutral WebAudio band kit (synth voices + step sequencer, PRNG-deterministic) plus a compose-and-render pipeline. See MISSION.md for purpose and direction; `git log` for current state.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "compose": "node src/compose.mjs",
+    "api": "node src/api-server.mjs",
+    "desk-server": "node src/desk-server.mjs",
+    "build-launcher": "node tools/build-launcher.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerugray/house-band.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lerugray/house-band/issues"
+  },
+  "homepage": "https://github.com/lerugray/house-band#readme",
+  "dependencies": {
+    "node-web-audio-api": "2.2.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

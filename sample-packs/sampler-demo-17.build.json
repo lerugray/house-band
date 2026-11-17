@@ -1,0 +1,77 @@
+{
+  "packId": "sampler-demo-17",
+  "displayName": "Sampler Demo (kit 1.7.0)",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-08-29T12:00:00Z",
+  "provenance": "first-party operator library",
+  "attribution": "Selected by Claude from Ray Weiss's own sample library (ray-samples) under the Timbre-Variety Law's named-source clause; MicroFreak and SNES renders and the MS-20 recordings are all first-party.",
+  "licenseRef": "first-party operator library",
+  "sourceCollection": "ray-samples (HUMBUCKER MF, INSTRUMENTS/SNES RHODES, Homebrew MS 20)",
+  "assets": [
+    {
+      "sourceFile": "HUMBUCKER MF/HUMBUCKER MF-048-100.wav",
+      "id": "humbucker-c3",
+      "displayName": "HUMBUCKER MF C3",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.6,
+      "tags": ["guitar", "microfreak", "humbucker", "pluck", "ray-pick-5"]
+    },
+    {
+      "sourceFile": "HUMBUCKER MF/HUMBUCKER MF-052-100.wav",
+      "id": "humbucker-e3",
+      "displayName": "HUMBUCKER MF E3",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.6,
+      "tags": ["guitar", "microfreak", "humbucker", "pluck", "ray-pick-5"]
+    },
+    {
+      "sourceFile": "HUMBUCKER MF/HUMBUCKER MF-056-100.wav",
+      "id": "humbucker-gs3",
+      "displayName": "HUMBUCKER MF G#3",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.6,
+      "tags": ["guitar", "microfreak", "humbucker", "pluck", "ray-pick-5"]
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SNES RHODES/SNES RHODES-048-100.wav",
+      "id": "snes-rhodes-low",
+      "displayName": "SNES RHODES low",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.2,
+      "tags": ["electric-piano", "snes", "multisample", "ray-pick-4"]
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SNES RHODES/SNES RHODES-060-100.wav",
+      "id": "snes-rhodes-mid",
+      "displayName": "SNES RHODES mid",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.2,
+      "tags": ["electric-piano", "snes", "multisample", "ray-pick-4"]
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SNES RHODES/SNES RHODES-072-100.wav",
+      "id": "snes-rhodes-high",
+      "displayName": "SNES RHODES high",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.2,
+      "tags": ["electric-piano", "snes", "multisample", "ray-pick-4"]
+    },
+    {
+      "sourceFile": "Homebrew MS 20/ms20 daf bass1.wav",
+      "id": "ms20-daf-bass",
+      "displayName": "MS-20 DAF bass",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.6,
+      "tags": ["bass", "ms-20", "analog", "unlabelled-root", "ray-pick-1"]
+    },
+    {
+      "sourceFile": "Homebrew MS 20/ms20 clearysquare.wav",
+      "id": "ms20-square-lead",
+      "displayName": "MS-20 clear square lead",
+      "suggestedVoice": "sampler",
+      "maxSeconds": 1.6,
+      "tags": ["lead", "ms-20", "square", "unlabelled-root", "ray-pick-1"]
+    }
+  ]
+}

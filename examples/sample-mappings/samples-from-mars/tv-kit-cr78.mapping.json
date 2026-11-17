@@ -1,0 +1,181 @@
+{
+  "packId": "tv-kit-cr78",
+  "displayName": "Timbre Range kit: CR-78 rhythm box",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Kick CR78 12.wav",
+      "id": "kick",
+      "displayName": "CR-78 rhythm box (sampled): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "expectedSourceSha256": "5f6af623b8c3aecd60a8a7f7ea100ba9674f70fdd29ceffe2d114f4a94882dfe"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Snare CR78 13.wav",
+      "id": "snare",
+      "displayName": "CR-78 rhythm box (sampled): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "expectedSourceSha256": "f4b1ceeff370eb128bd9499dbb875f4f40f540d911b14e5e550572c1c3817758"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Snare CR78 14.wav",
+      "id": "snare-b",
+      "displayName": "CR-78 rhythm box (sampled): snare b",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "expectedSourceSha256": "cc5bd8f385c166b8d03e62799630933b34f82b777e2ce88cdbc65408fbd36178"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/CH CR78 03.wav",
+      "id": "hat-closed",
+      "displayName": "CR-78 rhythm box (sampled): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "expectedSourceSha256": "2f08669052167cb27feb3f837bb0b5067c3a25e7f0f8426e94710da877f1ae72"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/CH CR78 05.wav",
+      "id": "hat-closed-b",
+      "displayName": "CR-78 rhythm box (sampled): hat closed b",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "expectedSourceSha256": "c0c18dc1545f22f9ca896f2954a16894d2874dcdd185ba3ddd41706651acd56e"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/OH CR78 03.wav",
+      "id": "hat-open",
+      "displayName": "CR-78 rhythm box (sampled): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.6,
+      "rootNote": 60,
+      "expectedSourceSha256": "2ae2816030c49e4bdabfe8774e66d19abd5d3c1fab641fddb45a2e789ad31559"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Conga CR78 05.wav",
+      "id": "tom-low",
+      "displayName": "CR-78 rhythm box (sampled): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.35,
+      "rootNote": 60,
+      "expectedSourceSha256": "1cf38d2ffb19e3d2fca26ff07ce3056f0675a6049e792ed4c8b5ddf374946305"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Bongo Lo CR78.wav",
+      "id": "tom-mid",
+      "displayName": "CR-78 rhythm box (sampled): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "rootNote": 60,
+      "expectedSourceSha256": "9e8aa436cb5f4b19338b07d10049b95986c5a6c6ec3e2d95c2f6c23fb200a4e3"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Bongo Hi CR78.wav",
+      "id": "tom-high",
+      "displayName": "CR-78 rhythm box (sampled): tom high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "rootNote": 60,
+      "expectedSourceSha256": "b4208ef9526a44cfacfa89c61fc6a0ba902c2259ad75e6d3372ee44f4a0f89e4"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Rim CR78 02.wav",
+      "id": "rim",
+      "displayName": "CR-78 rhythm box (sampled): rim",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "e98ac033db0e307688dc2f6c8318adb0c1c25a5291cee6eb9b6df1e66114a1f5"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/OH CR78 05.wav",
+      "id": "ride",
+      "displayName": "CR-78 rhythm box (sampled): ride",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.6,
+      "rootNote": 60,
+      "expectedSourceSha256": "7143f1702c04d841755c1896366b1efb73703f823258bdd0794e1eaec3f57590"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Perc CR78 17.wav",
+      "id": "perc-a",
+      "displayName": "CR-78 rhythm box (sampled): perc a",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "rootNote": 60,
+      "expectedSourceSha256": "42fd0d4e2690ce723381cdba906d9bf8fa17cd805aa65538bc453ae4ecf7f322"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Perc CR78 27.wav",
+      "id": "perc-b",
+      "displayName": "CR-78 rhythm box (sampled): perc b",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.2,
+      "rootNote": 60,
+      "expectedSourceSha256": "9eed03af552ae259156c03e4a4654a54a1d25e287c8bc762e9de72bba78cbc1c"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/CR78 From Mars/01. Kit 1/Conga CR78 07.wav",
+      "id": "conga-b",
+      "displayName": "CR-78 rhythm box (sampled): conga b",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "b3dfbabb1122cc3ef0d4ac82799472090eddef89b082acb97e8c304c54385563"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "a3b345f1822867053f33bd2c559a84b2b181aa3fb461abfbb2af8184a459c851",
+    "contentSha256": "d2d4dc62dad7990a45adaabea0cd41969ec37e743882111d7fd22b0a924642dd"
+  }
+}

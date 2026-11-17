@@ -1,0 +1,77 @@
+{
+  "packId": "tv-patch-ms20",
+  "displayName": "Timbre Range patches: MS-20 renders",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "Ray Weiss's first-party sample library (ray-samples/Homebrew MS 20), per the 2026-08-09 House Band founding (README Timbre-Variety Law)",
+  "attribution": "MS-20-named samples from Ray Weiss's sample library (ray-samples / Homebrew MS 20); Ray pick #1, blanket-endorsed; first-party per the 2026-08-09 House Band founding (README Timbre-Variety Law).",
+  "licenseRef": "first-party operator library",
+  "sourceCollection": "ray-samples / Homebrew MS 20",
+  "assets": [
+    {
+      "sourceFile": "Homebrew MS 20/ms20-bass9.wav",
+      "id": "ms20-bass-c2",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 bass c2",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bass",
+        "ms20",
+        "plucked"
+      ],
+      "maxSeconds": 1.8,
+      "rootNote": 36
+    },
+    {
+      "sourceFile": "Homebrew MS 20/ms20lpbass.wav",
+      "id": "ms20-bass-lp",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 bass lp",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bass",
+        "ms20",
+        "filtered"
+      ],
+      "maxSeconds": 2.2,
+      "rootNote": 36
+    },
+    {
+      "sourceFile": "Homebrew MS 20/ms20 clearysquare.wav",
+      "id": "ms20-square-c4",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 square c4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "lead",
+        "ms20",
+        "square"
+      ],
+      "maxSeconds": 2,
+      "rootNote": 60
+    },
+    {
+      "sourceFile": "Homebrew MS 20/ms20-bell.wav",
+      "id": "ms20-bell-c3",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 bell c3",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bell",
+        "ms20"
+      ],
+      "maxSeconds": 1.8,
+      "rootNote": 48
+    },
+    {
+      "sourceFile": "Homebrew MS 20/ms20 tinkle.wav",
+      "id": "ms20-tinkle-c5",
+      "displayName": "Timbre Range patches: MS-20 renders: ms20 tinkle c5",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bell",
+        "ms20",
+        "tinkle"
+      ],
+      "maxSeconds": 2,
+      "rootNote": 72
+    }
+  ]
+}

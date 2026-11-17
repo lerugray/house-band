@@ -1,0 +1,169 @@
+{
+  "packId": "tv-kit-synare-sds",
+  "displayName": "Timbre Range kit: Synare and Simmons electro",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "first-party operator library (purchased commercial sample collection, cleared for use at purchase)",
+  "attribution": "Selected by Claude from Ray Weiss's purchased Essential WAV From Mars collection (ray-samples) under the Timbre-Variety Law's named-source clause.",
+  "licenseRef": "Samples From Mars - Terms and Conditions (purchased collection; copy held in ray-samples)",
+  "sourceCollection": "Essential WAV From Mars (Samples From Mars LLC), purchased commercial collection held in ray-samples / Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1 and Essential WAV From Mars/Drums/02. Kits/SDS800 From Mars/01. Assorted Kit 1",
+  "assets": [
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/BD Synare 29.wav",
+      "id": "kick",
+      "displayName": "Synare and Simmons electro (sampled): kick",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "expectedSourceSha256": "ad7cb0ebe04f01ebfadf3cdd75744f8e980c33718bc484f5471ea227ab55ad23"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/BD Synare 01.wav",
+      "id": "kick-b",
+      "displayName": "Synare and Simmons electro (sampled): kick b",
+      "suggestedVoice": "kick",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "expectedSourceSha256": "a100a1030889cc6d2cb84946bd514a7289f19d3bfe3a0a87b1afba0410f69229"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Noise Various Synare 03.wav",
+      "id": "snare",
+      "displayName": "Synare and Simmons electro (sampled): snare",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.4,
+      "expectedSourceSha256": "95c674192b6fe4f55036710b89e7cde2c2a1945ba60f7fd7b884fe5e84bc10a2"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Noise Various Synare 07.wav",
+      "id": "snare-b",
+      "displayName": "Synare and Simmons electro (sampled): snare b",
+      "suggestedVoice": "snare",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.3,
+      "expectedSourceSha256": "2d88a71c5bc978efa62a5a76b49314500b92901fc24b7b683e96f34698f879fd"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/SDS800 From Mars/01. Assorted Kit 1/HH SDS800 12.wav",
+      "id": "hat-closed",
+      "displayName": "Synare and Simmons electro (sampled): hat closed",
+      "suggestedVoice": "hat",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.25,
+      "expectedSourceSha256": "3124e5a8d9d841649055c0801c807aad038b66f635a9c77f028867d592f2e7e8"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/SDS800 From Mars/01. Assorted Kit 1/HH SDS800 F 02.wav",
+      "id": "hat-open",
+      "displayName": "Synare and Simmons electro (sampled): hat open",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.3,
+      "rootNote": 60,
+      "expectedSourceSha256": "44af1f1f6a6db63972f2aa51e5f53155f42eea7309acbdf4ed44134f650896e8"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Tom Synare C 10.wav",
+      "id": "tom-low",
+      "displayName": "Synare and Simmons electro (sampled): tom low",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.9,
+      "rootNote": 60,
+      "expectedSourceSha256": "73f4e1d6601bb48d05b8bfe1904bdae9a250d88248e6ccd207bba9cd263ba8ff"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Tom Synare C 06.wav",
+      "id": "tom-mid",
+      "displayName": "Synare and Simmons electro (sampled): tom mid",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.68,
+      "rootNote": 60,
+      "expectedSourceSha256": "f2a74d9b59eb813cf27380cd3339c1009b133aa5df46b135613450c98d91cdf6"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Tom Synare C 04.wav",
+      "id": "tom-high",
+      "displayName": "Synare and Simmons electro (sampled): tom high",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.54,
+      "rootNote": 60,
+      "expectedSourceSha256": "6faddc5865f6b6d91206d978fcbc2934f15ecedf6a05e1519748cc0b2a841039"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Tom FM Short Synare E 06.wav",
+      "id": "fm-tom",
+      "displayName": "Synare and Simmons electro (sampled): fm tom",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 1.2,
+      "rootNote": 60,
+      "expectedSourceSha256": "9fbd811a37ad8c4f84884f7d1947c20ba54950398cc17e7cde9981f8527357f5"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Noise Down Synare B 07.wav",
+      "id": "zap",
+      "displayName": "Synare and Simmons electro (sampled): zap",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.27,
+      "rootNote": 60,
+      "expectedSourceSha256": "49584c7cde982b32eabeab5aa3c92d0273d8eae934cd73edd502195276de028f"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/Synare From Mars/01. Classic 1/Noise Synare Res 00 Sweep 01 A 10.wav",
+      "id": "sweep",
+      "displayName": "Synare and Simmons electro (sampled): sweep",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.22,
+      "rootNote": 60,
+      "expectedSourceSha256": "92946539e3a01fd54fdce2155b207ee741bac10231a50d4f5fdd6368fc9f7b20"
+    },
+    {
+      "sourceFile": "Essential WAV From Mars/Drums/02. Kits/SDS800 From Mars/01. Assorted Kit 1/Tom SDS800 F 18.wav",
+      "id": "simmons-tom",
+      "displayName": "Synare and Simmons electro (sampled): simmons tom",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "drum-kit"
+      ],
+      "maxSeconds": 0.9,
+      "rootNote": 60,
+      "expectedSourceSha256": "1ed10b00ff15142fddd340ebed1b00d22c16414a1e707572d70bffd4f88b2aaf"
+    }
+  ],
+  "libraryRootHint": "the folder that contains 'Essential WAV From Mars'",
+  "expected": {
+    "manifestSha256": "b7a5713377aa88277dbb5c9a67ec906627f52b385e66bd88f6c67b9758ace3a7",
+    "contentSha256": "27043e9ca5b0968817149df08b667631f85b974b3583d911a9cb8421e6587750"
+  }
+}

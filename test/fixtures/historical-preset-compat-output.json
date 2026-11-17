@@ -1,0 +1,13 @@
+{
+  "baselineCommit": "c8143313686db1d44c91645130773bfe3ce6df88",
+  "toolchain": {
+    "node": "v25.9.0",
+    "nodeWebAudioApi": "2.2.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "sampleRate": 44100,
+  "frames": 370440,
+  "bytes": 1481804,
+  "outputSha256": "c269acb4638ecab6a27a92e6dbe17954c2fead0afa33b1400b90eb8bc65b0c33"
+}

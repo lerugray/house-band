@@ -1,0 +1,209 @@
+{
+  "packId": "tv-patch-microfreak",
+  "displayName": "Timbre Range patches: MicroFreak renders",
+  "projectId": "house-band",
+  "curator": "Ray Weiss",
+  "createdAt": "2026-11-03T06:00:00Z",
+  "provenance": "Ray Weiss's first-party sample library (ray-samples/INSTRUMENTS/{MINT MF, SOR SAW, HUMBUCKER MF, SNES RHODES, SAWBELLS}), per the 2026-08-09 House Band founding (README Timbre-Variety Law)",
+  "attribution": "MicroFreak-named multisamples from Ray Weiss's sample library (ray-samples / INSTRUMENTS: MINT MF, SOR SAW, HUMBUCKER MF, SNES RHODES, SAWBELLS); selected for the Timbre-Variety Law; first-party per the 2026-08-09 House Band founding (README Timbre-Variety Law).",
+  "licenseRef": "first-party operator library",
+  "sourceCollection": "ray-samples / INSTRUMENTS (MicroFreak renders)",
+  "assets": [
+    {
+      "sourceFile": "INSTRUMENTS/MINT MF/MINT MF-048-100.wav",
+      "id": "mint-c3",
+      "displayName": "Timbre Range patches: MicroFreak renders: mint c3",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pad",
+        "microfreak",
+        "swell"
+      ],
+      "maxSeconds": 4.5
+    },
+    {
+      "sourceFile": "INSTRUMENTS/MINT MF/MINT MF-060-100.wav",
+      "id": "mint-c4",
+      "displayName": "Timbre Range patches: MicroFreak renders: mint c4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pad",
+        "microfreak",
+        "swell"
+      ],
+      "maxSeconds": 4.5
+    },
+    {
+      "sourceFile": "INSTRUMENTS/MINT MF/MINT MF-072-100.wav",
+      "id": "mint-c5",
+      "displayName": "Timbre Range patches: MicroFreak renders: mint c5",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pad",
+        "microfreak",
+        "swell"
+      ],
+      "maxSeconds": 4
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SOR SAW/SOR SAW-048-100.wav",
+      "id": "sor-c3",
+      "displayName": "Timbre Range patches: MicroFreak renders: sor c3",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "lead",
+        "microfreak",
+        "saw"
+      ],
+      "maxSeconds": 2.2
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SOR SAW/SOR SAW-060-100.wav",
+      "id": "sor-c4",
+      "displayName": "Timbre Range patches: MicroFreak renders: sor c4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "lead",
+        "microfreak",
+        "saw"
+      ],
+      "maxSeconds": 2.2
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SOR SAW/SOR SAW-072-100.wav",
+      "id": "sor-c5",
+      "displayName": "Timbre Range patches: MicroFreak renders: sor c5",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "lead",
+        "microfreak",
+        "saw"
+      ],
+      "maxSeconds": 2
+    },
+    {
+      "sourceFile": "INSTRUMENTS/HUMBUCKER MF/HUMBUCKER MF-040-100.wav",
+      "id": "hbk-e2",
+      "displayName": "Timbre Range patches: MicroFreak renders: hbk e2",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "guitar",
+        "microfreak",
+        "ray-pick-5"
+      ],
+      "maxSeconds": 1.8
+    },
+    {
+      "sourceFile": "INSTRUMENTS/HUMBUCKER MF/HUMBUCKER MF-052-100.wav",
+      "id": "hbk-e3",
+      "displayName": "Timbre Range patches: MicroFreak renders: hbk e3",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "guitar",
+        "microfreak",
+        "ray-pick-5"
+      ],
+      "maxSeconds": 1.8
+    },
+    {
+      "sourceFile": "INSTRUMENTS/HUMBUCKER MF/HUMBUCKER MF-064-100.wav",
+      "id": "hbk-e4",
+      "displayName": "Timbre Range patches: MicroFreak renders: hbk e4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "guitar",
+        "microfreak",
+        "ray-pick-5"
+      ],
+      "maxSeconds": 1.6
+    },
+    {
+      "sourceFile": "INSTRUMENTS/HUMBUCKER MF/HUMBUCKER MF-076-100.wav",
+      "id": "hbk-e5",
+      "displayName": "Timbre Range patches: MicroFreak renders: hbk e5",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "guitar",
+        "microfreak",
+        "ray-pick-5"
+      ],
+      "maxSeconds": 1.4
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SNES RHODES/SNES RHODES-048-100.wav",
+      "id": "rhodes-c3",
+      "displayName": "Timbre Range patches: MicroFreak renders: rhodes c3",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "electric-piano",
+        "snes"
+      ],
+      "maxSeconds": 1.4
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SNES RHODES/SNES RHODES-060-100.wav",
+      "id": "rhodes-c4",
+      "displayName": "Timbre Range patches: MicroFreak renders: rhodes c4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "electric-piano",
+        "snes"
+      ],
+      "maxSeconds": 1.2
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SNES RHODES/SNES RHODES-072-100.wav",
+      "id": "rhodes-c5",
+      "displayName": "Timbre Range patches: MicroFreak renders: rhodes c5",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "pluck",
+        "electric-piano",
+        "snes"
+      ],
+      "maxSeconds": 1
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SAWBELLS/SAWBELLS-050-100.wav",
+      "id": "sawbell-d3",
+      "displayName": "Timbre Range patches: MicroFreak renders: sawbell d3",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bell",
+        "microfreak",
+        "saw-bell"
+      ],
+      "maxSeconds": 2.4
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SAWBELLS/SAWBELLS-062-100.wav",
+      "id": "sawbell-d4",
+      "displayName": "Timbre Range patches: MicroFreak renders: sawbell d4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bell",
+        "microfreak",
+        "saw-bell"
+      ],
+      "maxSeconds": 2.2
+    },
+    {
+      "sourceFile": "INSTRUMENTS/SAWBELLS/SAWBELLS-070-100.wav",
+      "id": "sawbell-a4",
+      "displayName": "Timbre Range patches: MicroFreak renders: sawbell a4",
+      "suggestedVoice": "sampler",
+      "tags": [
+        "bell",
+        "microfreak",
+        "saw-bell"
+      ],
+      "maxSeconds": 2
+    }
+  ]
+}

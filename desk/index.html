@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House Band Composer's Desk</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="desk-header">
+    <div class="brand">
+      <h1>House Band Composer</h1>
+      <span class="register-badge">BLACKBOX PATCHBAY</span>
+    </div>
+    <div class="status-strip" id="status-strip">
+      <span class="status-dot" id="renderer-dot"></span>
+      <span id="renderer-status">checking…</span>
+      <span class="status-divider">|</span>
+      <span class="status-dot" id="provider-dot"></span>
+      <span id="provider-status">checking…</span>
+      <span class="status-divider">|</span>
+      <span class="status-dot" id="weiss-dot"></span>
+      <span id="weiss-status">checking…</span>
+    </div>
+  </header>
+
+  <svg class="patchbay-cables" id="patchbay-cables" aria-hidden="true"></svg>
+
+  <main class="desk-main">
+    <section class="panel left-rail">
+      <div class="control-group">
+        <label class="label-major" for="profile-select">Model profile</label>
+        <select id="profile-select"></select>
+        <button id="profile-test" type="button">Test</button>
+      </div>
+
+      <div class="control-group">
+        <label class="weiss-toggle">
+          <input id="weiss-toggle" type="checkbox" checked>
+          <span>WEISS — Shape this in Ray's vocabulary</span>
+        </label>
+      </div>
+
+      <div class="control-group" id="prompt-group">
+        <label class="label-major" for="prompt-input">Prompt</label>
+        <textarea id="prompt-input" class="scrolling-textarea" rows="4" placeholder="Describe the music you need…"></textarea>
+        <button id="brief-btn" class="primary" type="button">Make Direction Brief</button>
+      </div>
+
+      <div class="control-group" id="brief-group" hidden>
+        <label class="label-major" for="brief-input">Direction brief</label>
+        <textarea id="brief-input" class="scrolling-textarea" rows="6"></textarea>
+        <div class="brief-actions">
+          <button id="compose-btn" class="primary" type="button">Compose Score</button>
+          <button id="edit-brief-btn" type="button">Edit brief</button>
+          <button id="cancel-brief-btn" type="button">Cancel</button>
+        </div>
+      </div>
+
+      <div class="control-group" id="revision-group" hidden>
+        <label class="label-major" for="revision-input">Revise</label>
+        <textarea id="revision-input" class="scrolling-textarea" rows="3" placeholder="Ask for a change…"></textarea>
+        <button id="revise-btn" class="primary" type="button">Revise Score</button>
+      </div>
+
+      <div class="control-group pack-section" id="pack-section">
+        <div class="pack-header">
+          <span class="label-major">Canonical packs</span>
+          <button id="pack-refresh" type="button" title="Refresh packs">↻</button>
+        </div>
+        <div class="pack-list" id="pack-list"></div>
+      </div>
+    </section>
+
+    <section class="panel center-rail">
+      <div class="custody-rail" id="custody-rail"></div>
+
+      <div class="oscilloscope" id="oscilloscope">
+        <div class="oscilloscope-empty">Structure oscilloscope · waiting for score</div>
+      </div>
+
+      <div class="pattern-wall" id="pattern-wall">
+        <div class="wall-header">
+          <span class="label-major">Pattern wall</span>
+          <span id="render-hash"></span>
+        </div>
+        <div class="wall-grid" id="wall-grid"></div>
+      </div>
+    </section>
+
+    <section class="panel right-rail">
+      <div class="audition-bay" id="audition-bay">
+        <div class="transport-bar">
+          <button id="play-btn" class="primary" type="button" disabled>Play</button>
+          <button id="stop-btn" type="button" disabled>Stop</button>
+          <label><input id="loop-check" type="checkbox" checked> Loop</label>
+          <span class="position" id="position">00:00.00 / 00:00.00</span>
+        </div>
+
+        <div class="freeze-panel" id="freeze-panel" hidden>
+          <canvas id="waveform" width="800" height="160"></canvas>
+          <div class="hash-stamp" id="hash-stamp"></div>
+        </div>
+
+        <div class="voice-mix" id="voice-mix"></div>
+
+        <div class="ab-row">
+          <button id="ab-a" type="button" disabled>A</button>
+          <button id="ab-b" type="button" disabled>B</button>
+        </div>
+
+        <div class="seed-bar">
+          <label for="seed-input">Seed</label>
+          <input id="seed-input" type="number" min="0" max="4294967295" value="0">
+          <button id="reroll-btn" type="button">Re-roll</button>
+        </div>
+
+        <div class="export-bar">
+          <button id="export-accept" type="button" disabled>Accept bundle</button>
+          <button id="export-handoff" type="button" disabled>Stems + REAPER</button>
+        </div>
+      </div>
+
+      <div class="take-history" id="take-history">
+        <div class="label-major">Takes</div>
+        <div class="take-list" id="take-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="desk-footer">
+    <span id="footer-status">Ready</span>
+    <button id="show-log" type="button">Show Log</button>
+  </footer>
+</div>
+
+<script type="module" src="main.mjs"></script>
+</body>
+</html>

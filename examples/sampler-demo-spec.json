@@ -1,0 +1,465 @@
+{
+  "schemaVersion": "1.1.0",
+  "kitVersion": {
+    "semver": "1.7.0",
+    "sha": "2f83511cf6e33ac684fc862ca200783382eb68ffaba7d5195e9f9e6560a77bc8"
+  },
+  "seed": 1707,
+  "tempo": 84,
+  "sampleRate": 44100,
+  "gain": 0.5,
+  "label": "Kit 1.7.0 sampler proof: pitched multisample zones on guitar, electric piano, bass, and lead, with a low chord voiced on sampled EP and guitar material.",
+  "register": {
+    "name": "sampler-proof",
+    "briefRef": "docs/RAY-SAMPLES-TIMBRE-CATALOG-2026-08-29.md"
+  },
+  "samplePack": {
+    "packId": "sampler-demo-17",
+    "formatVersion": "1.1.0",
+    "manifestSha256": "139d5391d266827172b06c2c4bb0bb889448ba30a28fa6e253e135e4af2c2aea",
+    "contentSha256": "fa24ba6f62817d520bfd119bb2ec70a4fb3e23fc2659c98fb70379c56b56eace"
+  },
+  "sampleVoices": {
+    "pluck": {
+      "kind": "sampler",
+      "gain": 0.62,
+      "release": 0.05,
+      "zones": [
+        {
+          "lo": 46,
+          "hi": 49,
+          "rootNote": 48,
+          "assetId": "humbucker-c3",
+          "pcmSha256": "c2c8060b8fd9fb03cf12de47d757704524773c0fedd71891df7ada9b33ec1510"
+        },
+        {
+          "lo": 50,
+          "hi": 53,
+          "rootNote": 52,
+          "assetId": "humbucker-e3",
+          "pcmSha256": "e067d479bd0eaa0f7f9255759db8450214608a8e349e25dcfa6bd2b1aa3421f9"
+        },
+        {
+          "lo": 54,
+          "hi": 58,
+          "rootNote": 56,
+          "assetId": "humbucker-gs3",
+          "pcmSha256": "6475eed6b73539ca293ab1146e20a0914ab6a785b47bfbdeb86484904efa198d"
+        }
+      ]
+    },
+    "bell": {
+      "kind": "sampler",
+      "gain": 0.78,
+      "release": 0.08,
+      "zones": [
+        {
+          "lo": 30,
+          "hi": 41,
+          "rootNote": 36,
+          "assetId": "snes-rhodes-low",
+          "pcmSha256": "b775e6c6da57c4c6b31c2039bfb4b877c45446f30b71cacd7267861d3fc109d1"
+        },
+        {
+          "lo": 42,
+          "hi": 53,
+          "rootNote": 48,
+          "assetId": "snes-rhodes-mid",
+          "pcmSha256": "a559a5ffdf85d109a76b1ed198ff5e38eefc8ccc78f774c12f52fb2b7d5b04bd"
+        },
+        {
+          "lo": 54,
+          "hi": 66,
+          "rootNote": 60,
+          "assetId": "snes-rhodes-high",
+          "pcmSha256": "d197416c7175e6a8426dc3bc55b3ba2865b731a47f992f6efbfe534ec10a4241"
+        }
+      ]
+    },
+    "bass": {
+      "kind": "sampler",
+      "gain": 0.85,
+      "release": 0.04,
+      "zones": [
+        {
+          "lo": 26,
+          "hi": 48,
+          "rootNote": 36,
+          "assetId": "ms20-daf-bass",
+          "pcmSha256": "3f7ad025d7dd433c15f397983388571ec179311881930c84aa63aec505356d89"
+        }
+      ]
+    },
+    "lead": {
+      "kind": "sampler",
+      "gain": 0.44,
+      "release": 0.06,
+      "zones": [
+        {
+          "lo": 50,
+          "hi": 74,
+          "rootNote": 60,
+          "assetId": "ms20-square-lead",
+          "pcmSha256": "ee46a7d2d61fc4d4a23674f664b7128c477611d0032d7933f2c8faa4851e84e5"
+        }
+      ]
+    }
+  },
+  "performance": {
+    "humanize": {
+      "timingMs": [
+        -9,
+        9
+      ],
+      "velocity": [
+        -0.07,
+        0.07
+      ],
+      "swing": 0.04
+    }
+  },
+  "tracks": {
+    "lowChord": {
+      "bpm": 84,
+      "len": 16,
+      "vol": 0.9,
+      "steps": [
+        {
+          "i": 0,
+          "voice": "bell",
+          "note": "C2",
+          "dur": 2.6,
+          "opts": {
+            "vol": 1
+          }
+        },
+        {
+          "i": 0,
+          "voice": "bell",
+          "note": "G2",
+          "dur": 2.6,
+          "opts": {
+            "vol": 0.8
+          }
+        },
+        {
+          "i": 0,
+          "voice": "bell",
+          "note": "D#3",
+          "dur": 2.6,
+          "opts": {
+            "vol": 0.7
+          }
+        },
+        {
+          "i": 0,
+          "voice": "bass",
+          "note": "C2",
+          "dur": 2.6,
+          "opts": {
+            "vol": 0.9
+          }
+        },
+        {
+          "i": 8,
+          "voice": "bass",
+          "note": "G1",
+          "dur": 1.2,
+          "opts": {
+            "vol": 0.6
+          }
+        }
+      ]
+    },
+    "verse": {
+      "bpm": 84,
+      "len": 32,
+      "vol": 0.9,
+      "steps": [
+        {
+          "i": [
+            0,
+            16
+          ],
+          "voice": "bass",
+          "note": "C2",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.95
+          }
+        },
+        {
+          "i": [
+            6,
+            22
+          ],
+          "voice": "bass",
+          "note": "G1",
+          "dur": 0.7,
+          "opts": {
+            "vol": 0.55
+          }
+        },
+        {
+          "i": [
+            12
+          ],
+          "voice": "bass",
+          "note": "A#1",
+          "dur": 0.7,
+          "opts": {
+            "vol": 0.6
+          }
+        },
+        {
+          "i": [
+            28
+          ],
+          "voice": "bass",
+          "note": "G#1",
+          "dur": 0.9,
+          "opts": {
+            "vol": 0.6
+          }
+        },
+        {
+          "i": 0,
+          "voice": "pluck",
+          "note": "C3",
+          "dur": 1.5,
+          "opts": {
+            "vol": 0.9
+          }
+        },
+        {
+          "i": 0,
+          "voice": "pluck",
+          "note": "E3",
+          "dur": 1.5,
+          "opts": {
+            "vol": 0.75
+          }
+        },
+        {
+          "i": 0,
+          "voice": "pluck",
+          "note": "G#3",
+          "dur": 1.5,
+          "opts": {
+            "vol": 0.7
+          }
+        },
+        {
+          "i": 16,
+          "voice": "pluck",
+          "note": "C3",
+          "dur": 1.5,
+          "opts": {
+            "vol": 0.9
+          }
+        },
+        {
+          "i": 16,
+          "voice": "pluck",
+          "note": "D#3",
+          "dur": 1.5,
+          "opts": {
+            "vol": 0.75
+          }
+        },
+        {
+          "i": 16,
+          "voice": "pluck",
+          "note": "G3",
+          "dur": 1.5,
+          "opts": {
+            "vol": 0.7
+          }
+        },
+        {
+          "i": [
+            10,
+            26
+          ],
+          "voice": "bell",
+          "note": "C4",
+          "dur": 0.5,
+          "opts": {
+            "vol": 0.45
+          }
+        },
+        {
+          "i": [
+            13
+          ],
+          "voice": "bell",
+          "note": "D#4",
+          "dur": 0.5,
+          "opts": {
+            "vol": 0.4
+          }
+        },
+        {
+          "i": [
+            29
+          ],
+          "voice": "bell",
+          "note": "A#3",
+          "dur": 0.5,
+          "opts": {
+            "vol": 0.4
+          }
+        }
+      ]
+    },
+    "turn": {
+      "bpm": 84,
+      "len": 32,
+      "vol": 0.9,
+      "steps": [
+        {
+          "i": [
+            0,
+            16
+          ],
+          "voice": "bass",
+          "note": "G#1",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.9
+          }
+        },
+        {
+          "i": [
+            8,
+            24
+          ],
+          "voice": "bass",
+          "note": "A#1",
+          "dur": 0.9,
+          "opts": {
+            "vol": 0.6
+          }
+        },
+        {
+          "i": 0,
+          "voice": "pluck",
+          "note": "G#3",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.6
+          }
+        },
+        {
+          "i": 8,
+          "voice": "pluck",
+          "note": "D#3",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.55
+          }
+        },
+        {
+          "i": 16,
+          "voice": "pluck",
+          "note": "A#3",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.6
+          }
+        },
+        {
+          "i": 24,
+          "voice": "pluck",
+          "note": "D3",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.55
+          }
+        },
+        {
+          "i": 0,
+          "voice": "lead",
+          "note": "C4",
+          "dur": 0.8,
+          "opts": {
+            "vol": 0.9
+          }
+        },
+        {
+          "i": 4,
+          "voice": "lead",
+          "note": "D#4",
+          "dur": 0.5,
+          "opts": {
+            "vol": 0.8
+          }
+        },
+        {
+          "i": 6,
+          "voice": "lead",
+          "note": "G4",
+          "dur": 1.1,
+          "opts": {
+            "vol": 0.85
+          }
+        },
+        {
+          "i": 12,
+          "voice": "lead",
+          "note": "A#4",
+          "dur": 0.5,
+          "opts": {
+            "vol": 0.75
+          }
+        },
+        {
+          "i": 16,
+          "voice": "lead",
+          "note": "C5",
+          "dur": 1.3,
+          "opts": {
+            "vol": 0.9
+          }
+        },
+        {
+          "i": 22,
+          "voice": "lead",
+          "note": "G4",
+          "dur": 0.6,
+          "opts": {
+            "vol": 0.7
+          }
+        },
+        {
+          "i": 26,
+          "voice": "lead",
+          "note": "D#4",
+          "dur": 1.4,
+          "opts": {
+            "vol": 0.65
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "track": "lowChord",
+      "bars": 1,
+      "fadeIn": 0.05
+    },
+    {
+      "track": "verse",
+      "bars": 2
+    },
+    {
+      "track": "turn",
+      "bars": 2
+    },
+    {
+      "track": "verse",
+      "bars": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "format": "house-band-samples",
+  "version": 1,
+  "id": "scan-fixture",
+  "displayName": "samples-scan",
+  "source": {
+    "type": "folder",
+    "path": "./drum-folder"
+  },
+  "licence": "user-supplied; not for redistribution",
+  "fallbackKit": "tr808",
+  "kit": {
+    "hat": {
+      "open": "OH.wav",
+      "closed": "HH closed.wav"
+    },
+    "kick": {
+      "a": "Kicks/BD Long.wav",
+      "b": "Kicks/BD Tight.wav"
+    },
+    "snare": {
+      "a": "Snare 01.wav"
+    },
+    "perc": {
+      "cowbell": "perc/cowbell.wav"
+    }
+  },
+  "patches": {
+    "keys": {
+      "class": "pluck",
+      "zones": "auto",
+      "files": [
+        "Keys/Rhodes C3.wav",
+        "Keys/Rhodes C4.wav"
+      ]
+    }
+  }
+}
