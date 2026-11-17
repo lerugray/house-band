@@ -33,3 +33,7 @@ have no audio.
 
 Set `CHROMIUM_PATH` to an installed Chromium/Chrome binary if Playwright should not download one.
 Launch args always include `--mute-audio`.
+
+## Share image
+
+`og.png` (1200x630) is the page's own pixel band (band.js, code-drawn) captured mid-loop and set beside the title; used for og:image and twitter:image.

@@ -674,3 +674,9 @@ a:hover {
     animation: none !important;
   }
 }
+
+@media (min-width: 700px) {
+  .nowrap {
+    white-space: nowrap;
+  }
+}
