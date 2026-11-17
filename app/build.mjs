@@ -248,6 +248,7 @@ ${css}
       <input id="load-input" type="file" accept="application/json">
       <label class="file-label" for="pack-input">Load sample pack</label>
       <input id="pack-input" type="file" accept="application/json,audio/wav,.wav" multiple webkitdirectory>
+      <button id="paste-open">Paste score</button>
       <button id="save-spec">Save spec</button>
     </div>
     <div class="toolbar-group">
@@ -267,6 +268,19 @@ ${css}
   </div>
 
   <div class="status" id="status"></div>
+
+  <dialog id="paste-dialog" class="paste-dialog" aria-labelledby="paste-title">
+    <form method="dialog" id="paste-form">
+      <h2 id="paste-title">Paste a score</h2>
+      <p class="paste-help">Paste score JSON: one you wrote, one an LLM wrote for you, or one copied from the examples. It is checked against the score format before it plays; nothing leaves this page.</p>
+      <textarea id="paste-text" spellcheck="false" rows="16" placeholder='{ "schemaVersion": "1.0.0", "tempo": 96, "tracks": { ... }, "sections": [ ... ] }'></textarea>
+      <div class="paste-error" id="paste-error" role="alert"></div>
+      <div class="paste-actions">
+        <button type="button" id="paste-cancel">Cancel</button>
+        <button type="submit" id="paste-load" class="primary">Load and play</button>
+      </div>
+    </form>
+  </dialog>
 
   <div class="diff-bar" aria-live="polite">
     <span class="diff-title">Changes</span>
