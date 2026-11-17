@@ -2,7 +2,7 @@
 
 Music written as code. Scores are readable JSON; a deterministic WebAudio band plays them; you can bring your own samples and your own songs.
 
-[Listen first](https://lerugray.github.io/house-band/)
+[Listen first](https://lerugray.github.io/house-band/) · [Try it in your browser](https://lerugray.github.io/house-band/audition-room.html) (paste a score, nothing to install) · [See an LLM write one](https://lerugray.github.io/house-band/#llm)
 
 ## What it is
 
@@ -32,7 +32,9 @@ Score format: [docs/M2-INTERFACE.md](./docs/M2-INTERFACE.md). Use `--kit-map a=b
 
 ## Audition Room and Composer's Desk
 
-Audition Room: `node app/build.mjs`, then open `dist/audition-room.html` (no server).
+Audition Room: [open it on the site](https://lerugray.github.io/house-band/audition-room.html), or build it locally with `node app/build.mjs` and open `dist/audition-room.html` (no server). Load, drop or paste a score (the Paste score button, or Ctrl/Cmd+V anywhere); `?score=<path>` opens a score from the same site.
+
+A real Desk run, with the exact prompt, the model's score and the render: [`site/llm/`](./site/llm/README.md).
 
 Desk: `npm run desk-server`. Provider profiles read keys from the House Band env file (`HOUSE_BAND_ENV_FILE` or `~/.config/house-band/.env`): Claude Code OAuth (`CLAUDE_CODE_OAUTH_TOKEN` or the name in `HOUSE_BAND_CLAUDE_TOKEN_VAR`), Anthropic (`ANTHROPIC_API_KEY`), DeepSeek, Ollama Cloud, or a custom OpenAI-compatible endpoint (`HOUSE_BAND_LLM_*`). The deterministic test double works with no key.
 

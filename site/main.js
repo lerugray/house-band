@@ -1,19 +1,37 @@
 import { mountPlayer } from './player.js';
 import { mountBand } from './band.js';
 
-/** Titles and lengths from da7c971 LS03 MANIFEST.json (loopSeconds, else ogg seconds). */
+/**
+ * Titles and lengths from da7c971 LS03 MANIFEST.json (loopSeconds, else ogg seconds).
+ * kit and bytes are read from site/scores/darkness/<id>.json (test/site-page.test.mjs keeps them in step),
+ * so the page no longer downloads all ten full scores (4.9 MB) just to label the rows.
+ */
 const DARKNESS = [
-  { id: '00-approaching', title: 'Approaching', seconds: 102.8571 },
-  { id: '01-main-street', title: 'Main Street', seconds: 105.6 },
-  { id: '02-past-the-last-light', title: 'Past the Last Light', seconds: 113.6842 },
-  { id: '03-tuesday-night', title: 'Tuesday Night', seconds: 97.5 },
-  { id: '04-sorry-about-the-wait', title: 'Sorry About the Wait', seconds: 84.3243 },
-  { id: '05-off-season', title: 'Off-Season', seconds: 111.4286 },
-  { id: '06-the-742', title: 'The 7:42', seconds: 123.2004 },
-  { id: '07-forty-one-seconds', title: 'Forty-One Seconds', seconds: 41 },
-  { id: '08a-hold-music', title: 'Hold Music (on the title, telephone)', seconds: 57.7273 },
-  { id: '08b-hold-music', title: 'Hold Music (full band)', seconds: 57.7273 },
+  { id: '00-approaching', title: 'Approaching', seconds: 102.8571, kit: 'vinyl-indie', bytes: 909109 },
+  { id: '01-main-street', title: 'Main Street', seconds: 105.6, kit: 'linndrum', bytes: 669106 },
+  { id: '02-past-the-last-light', title: 'Past the Last Light', seconds: 113.6842, kit: 'brushed-jazz', bytes: 248088 },
+  { id: '03-tuesday-night', title: 'Tuesday Night', seconds: 97.5, kit: 'vinyl-indie', bytes: 1179667 },
+  { id: '04-sorry-about-the-wait', title: 'Sorry About the Wait', seconds: 84.3243, kit: 'vinyl-indie', bytes: 490253 },
+  { id: '05-off-season', title: 'Off-Season', seconds: 111.4286, kit: 'cr78', bytes: 306735 },
+  { id: '06-the-742', title: 'The 7:42', seconds: 123.2004, kit: 'linndrum', bytes: 530270 },
+  { id: '07-forty-one-seconds', title: 'Forty-One Seconds', seconds: 41, kit: 'tr707', bytes: 75871 },
+  { id: '08a-hold-music', title: 'Hold Music (on the title, telephone)', seconds: 57.7273, kit: 'brushed-jazz', bytes: 257783 },
+  { id: '08b-hold-music', title: 'Hold Music (full band)', seconds: 57.7273, kit: 'brushed-jazz', bytes: 257675 },
 ];
+
+/**
+ * The seven sampled kits need the listener's own Samples From Mars copy (README "Kits" table); the
+ * value is the nearest built-in kit to swap in with --kit-map. Every other kit is built in.
+ */
+export const SAMPLED_KITS = {
+  linndrum: 'tr909',
+  cr78: 'tr808',
+  'vinyl-indie': 'brushed-jazz',
+  'found-wood': 'orchestral',
+  'dystopian-tech': 'industrial',
+  'synare-sds': 'tr808',
+  tr707: 'tr808',
+};
 
 /** Markers from PLAN.md (e) section 3; kept as published unless REPORT notes a >2 s miss. */
 const FD_MARKERS = [
@@ -48,22 +66,12 @@ function darknessTrack(id, title) {
   };
 }
 
-async function kitsFromScores() {
-  const kits = {};
-  await Promise.all(
-    DARKNESS.map(async (t) => {
-      const res = await fetch(`scores/darkness/${t.id}.json`);
-      if (!res.ok) throw new Error(`score ${t.id}: ${res.status}`);
-      const score = await res.json();
-      const found = new Set();
-      if (typeof score.kit === 'string') found.add(score.kit);
-      kits[t.id] = [...found];
-    }),
-  );
-  return kits;
+function formatBytes(bytes) {
+  if (bytes >= 1e6) return `${(bytes / 1e6).toFixed(1)} MB`;
+  return `${Math.round(bytes / 1e3)} KB`;
 }
 
-function wireDarknessAlbum(playerApi, kits) {
+function wireDarknessAlbum(playerApi) {
   const list = document.getElementById('darkness-album');
   if (!list) return;
   list.replaceChildren();
@@ -90,17 +98,29 @@ function wireDarknessAlbum(playerApi, kits) {
 
     const chips = document.createElement('span');
     chips.className = 'kit-chips';
-    for (const kit of kits[t.id] || []) {
-      const chip = document.createElement('span');
-      chip.className = 'kit-chip';
-      chip.textContent = kit;
-      chips.append(chip);
+    const chip = document.createElement('span');
+    chip.className = 'kit-chip';
+    chip.textContent = t.kit;
+    const source = document.createElement('span');
+    const swap = SAMPLED_KITS[t.kit];
+    if (swap) {
+      source.className = 'kit-source sampled';
+      source.textContent = 'needs Samples From Mars';
+      source.title = `Sampled kit: build it from your own Samples From Mars copy, or render with --kit-map ${t.kit}=${swap}`;
+    } else {
+      source.className = 'kit-source builtin';
+      source.textContent = 'built-in kit';
+      source.title = 'Synthesised kit: renders from a fresh clone with nothing else installed';
     }
+    chips.append(chip, source);
 
     const score = document.createElement('a');
+    score.className = 'score-link';
     score.href = `scores/darkness/${t.id}.json`;
-    score.textContent = 'View the score';
-    score.setAttribute('aria-label', `View the score for ${t.title}`);
+    score.target = '_blank';
+    score.rel = 'noopener';
+    score.textContent = `Score JSON (${formatBytes(t.bytes)})`;
+    score.setAttribute('aria-label', `Open the full score for ${t.title}, ${formatBytes(t.bytes)} of JSON, in a new tab`);
 
     li.append(play, title, len, chips, score);
     list.append(li);
@@ -226,11 +246,20 @@ function boot() {
     });
   }
 
-  kitsFromScores()
-    .then((kits) => {
-      if (darknessPlayer) wireDarknessAlbum(darknessPlayer, kits);
-    })
-    .catch((err) => console.error(err));
+  if (darknessPlayer) wireDarknessAlbum(darknessPlayer);
+
+  const llm = document.getElementById('player-llm');
+  if (llm) {
+    mountPlayer(llm, {
+      ariaLabel: 'After Closing, rendered from the score the model wrote',
+      tracks: [{
+        title: 'After Closing (written by an LLM, played by House Band)',
+        mp3: 'audio/llm/after-closing.mp3',
+        ogg: 'audio/llm/after-closing.ogg',
+        peaks: 'peaks/llm/after-closing.ogg.json',
+      }],
+    });
+  }
 
   const fdBefore = document.getElementById('player-fd-before');
   if (fdBefore) {

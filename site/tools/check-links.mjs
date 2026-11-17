@@ -71,7 +71,9 @@ function underSite(abs) {
 }
 
 function main() {
-  const htmlFiles = walkHtml(SITE);
+  // audition-room.html is the built single-file app (app/build.mjs): its inlined script has src= text that is
+  // code, not links, and it loads no local assets.
+  const htmlFiles = walkHtml(SITE).filter((f) => path.relative(SITE, f) !== 'audition-room.html');
   const external = new Set();
   const broken = [];
 

@@ -1,0 +1,47 @@
+{
+  "prompt": "A late-night diner jukebox tune for a small town after closing time. Warm, a little lonely, a slow walking bass, brushed drums, and a lead that sounds like someone humming to themselves on the drive home.",
+  "titleHint": "After Closing",
+  "seed": 1117,
+  "register": {
+    "source": "supplied",
+    "brief": "Slow, warm, small-hours. Tempo around 84. Brushed kit. One clear hummable lead phrase in A that answers itself in B; walking bass that heads home to the tonic at the end. Leave space: rests matter more than notes."
+  },
+  "canonicalVoiceAllowlist": [
+    "kick",
+    "snare",
+    "hat",
+    "bass",
+    "lead",
+    "pad",
+    "pluck",
+    "bell"
+  ],
+  "sections": [
+    {
+      "name": "A",
+      "bars": 4,
+      "direction": "Introduce the hummed lead phrase over pad and walking bass; drums barely there."
+    },
+    {
+      "name": "B",
+      "bars": 4,
+      "direction": "The answer: lead climbs, pluck counter-line enters, drums fill out."
+    },
+    {
+      "name": "C",
+      "bars": 4,
+      "direction": "Back to A's phrase, resolved; bass lands home and a bell closes it out."
+    }
+  ],
+  "duration": {
+    "targetBars": 12
+  },
+  "composition": {
+    "maxValidationAttempts": 3
+  },
+  "render": {
+    "fullMix": true,
+    "stems": true
+  },
+  "renderProfileId": "hb-listen-render/1.0.0"
+}

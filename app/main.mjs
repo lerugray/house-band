@@ -57,6 +57,12 @@ function init() {
     diffList: $('diff-list'),
     grid: $('grid'),
     registerPanel: $('register-panel'),
+    pasteOpen: $('paste-open'),
+    pasteDialog: $('paste-dialog'),
+    pasteForm: $('paste-form'),
+    pasteText: $('paste-text'),
+    pasteError: $('paste-error'),
+    pasteCancel: $('paste-cancel'),
     dropTarget: document.body,
   };
 
@@ -634,6 +640,83 @@ function init() {
   els.abA.addEventListener('click', () => selectAB('A'));
   els.abB.addEventListener('click', () => selectAB('B'));
 
+  // Paste a score: dialog, or Ctrl/Cmd+V anywhere outside a text field.
+  function parseScoreText(text) {
+    const trimmed = String(text).trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
+    return JSON.parse(trimmed);
+  }
+
+  function openPasteDialog(prefill = '') {
+    els.pasteError.textContent = '';
+    if (prefill) els.pasteText.value = prefill;
+    if (typeof els.pasteDialog.showModal === 'function') els.pasteDialog.showModal();
+    else els.pasteDialog.setAttribute('open', '');
+    els.pasteText.focus();
+  }
+
+  function closePasteDialog() {
+    if (typeof els.pasteDialog.close === 'function') els.pasteDialog.close();
+    else els.pasteDialog.removeAttribute('open');
+  }
+
+  els.pasteOpen.addEventListener('click', () => openPasteDialog());
+  els.pasteCancel.addEventListener('click', closePasteDialog);
+  els.pasteText.addEventListener('input', () => { els.pasteError.textContent = ''; });
+  els.pasteForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let json;
+    try {
+      json = parseScoreText(els.pasteText.value);
+    } catch (err) {
+      els.pasteError.textContent = `That is not valid JSON: ${err.message}`;
+      return;
+    }
+    try {
+      validateSpec(structuredClone(json));
+    } catch (err) {
+      els.pasteError.textContent = `The score did not pass the format check: ${err.message}`;
+      return;
+    }
+    if (loadArtifact(json)) {
+      closePasteDialog();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+    }
+  });
+
+  document.addEventListener('paste', (e) => {
+    const target = e.target;
+    if (target && (target.tagName === 'TEXTAREA' || target.tagName === 'INPUT' || target.isContentEditable)) return;
+    const text = e.clipboardData?.getData('text') ?? '';
+    if (!text.trim().startsWith('{') && !text.trim().startsWith('```')) return;
+    e.preventDefault();
+    openPasteDialog(text);
+  });
+
+  // ?score=<same-origin path> preloads a score (the landing page links its examples this way).
+  async function loadScoreFromQuery() {
+    const param = new URLSearchParams(globalThis.location?.search ?? '').get('score');
+    if (!param) return false;
+    let url;
+    try {
+      url = new URL(param, globalThis.location.href);
+    } catch {
+      return false;
+    }
+    if (url.origin !== globalThis.location.origin) {
+      setStatus('Only scores from this site can be opened by link; use Paste score for others.', true);
+      return false;
+    }
+    try {
+      setStatus('Loading score…');
+      const res = await fetch(url.href);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return loadArtifact(await res.json());
+    } catch (err) {
+      setStatus(`Could not load ${url.pathname}: ${err.message}`, true);
+      return false;
+    }
+  }
+
   // Drag and drop
   ['dragenter', 'dragover'].forEach((ev) => {
     els.dropTarget.addEventListener(ev, (e) => { e.preventDefault(); });
@@ -672,7 +755,9 @@ function init() {
   buildTweakControls();
   updateDiffs();
   els.seedInput.value = String(workingSpec.seed);
-  renderCurrent().catch(() => {});
+  loadScoreFromQuery().then((loaded) => {
+    if (!loaded) renderCurrent().catch(() => {});
+  });
 }
 
 if (typeof document !== 'undefined') {

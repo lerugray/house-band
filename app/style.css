@@ -450,3 +450,30 @@ footer {
   color: var(--muted);
   font-size: 0.8rem;
 }
+
+.paste-dialog {
+  width: min(720px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px;
+}
+.paste-dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+.paste-dialog h2 { margin: 0 0 8px; font-size: 16px; }
+.paste-help { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+.paste-dialog textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 260px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 8px;
+  font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  resize: vertical;
+}
+.paste-error { min-height: 1.2em; margin: 8px 0 0; color: var(--danger); font-size: 13px; }
+.paste-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 10px; }

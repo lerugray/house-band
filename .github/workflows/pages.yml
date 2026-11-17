@@ -47,6 +47,10 @@ jobs:
         working-directory: site/demos
       - run: node build.mjs
         working-directory: site/demos
+      # The Audition Room is one self-contained HTML file; the landing page links to it so people can paste a
+      # score and hear it in the browser with nothing installed.
+      - run: node app/build.mjs
+      - run: cp dist/audition-room.html site/audition-room.html
       - run: node site/tools/stage-page-audio.mjs .page-audio/site/audio
       - run: node site/tools/stage-page-audio.mjs --check
       - run: node site/tools/check-links.mjs
